@@ -1,8 +1,12 @@
+\section{Outlier Counts: Top500 vs. Top8000 Reference Contours} 
 \begin{table}[h!]
-  \centering
+%  \centering
   \vspace{-15pt}
   \begin{tabular}{lcccc}\\ \toprule
-    Residue & n & Top500 $<$= 0.3\% & Top8000 $<$= 1.0\% & $\Delta$ \\ \midrule
+    Residue & n & 
+      \begin{tabular}[x]{@{}c@{}}Top500 \\$<$= 0.3\%\end{tabular} & 
+      \begin{tabular}[x]{@{}c@{}}Top8000\\$<$= 1.0\%\end{tabular} &
+       $\Delta$ \\ \midrule
     ARG    & 193295 & 7501   & 5643   & -1858  \\ \midrule
     ASN    & 161814 & 2143   & 1926   & -217   \\ \midrule
     ASP    & 225302 & 3745   & 2779   & -966   \\ \midrule
@@ -22,7 +26,7 @@
     TYR    & 134580 & 1757   & 696    & -1061  \\ \midrule
     VAL    & 280539 & 1633   & 3282   & 1649   \\ \midrule
   \end{tabular}
-  \caption{Showing differences between outlier counts in the Top500-analyzed and Top8000-analyzed unfiltered dataset.}
+  \caption{Showing differences between outlier counts in the unfiltered dataset using the Top500 and Top8000 reference contours.}
   \label{tab:outliers}
 \vspace{-15pt}
 \end{table}
