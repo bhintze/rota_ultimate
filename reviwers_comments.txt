@@ -1,0 +1,132 @@
+These comments were received on 2016-02-15
+
+### BEGIN REVIEWERS COMMENTS#####
+REVIEWERS' COMMENTS TO AUTHOR:
+Reviewer: 1
+
+Comments to the Author
+Review of “MolProbity’s Ultimate Rotamer-Library Distributions for Model Validation”
+
+This paper is a major contribution to a wide field of people that rely on protein modeling and design codes, as well as people that develop these codes. This paper describes a significantly improved set of rotamers for modeling and design of natural amino acids. A key improvement is that the rotamer library is based on a very large increase in the quality and number of protein structures used in the last version of this critical resource. All intermediate data-types are also freely provided in this work. My only major comment is that the writing is at time much too imprecise and informal and this must absolutely be fixed. Avoid the use of lab-specific terms, nicknames, and imprecise statements. A few examples are given below where the writing lacks precision at key points in the development of the paper.  The writing must be significantly streamlined and improved in order to properly describe and highlight the interesting new things you've done here.
+
+Could you devise a figure or table that more directly or comprehensively compares the older (penultimate) rotamer library to the new (ultimate) you describe here?
+
+In intro you say:
+“The combined new protocol retains a million residues of data, while cleaning up noise in the multi-dimensional χ distributions. It enables clean characterization of conformational clusters nearly 1000-fold less frequent than the most common ones.” … ‘Noise’ and ‘Clean’ are quite imprecise in this context. Noise in what estimate? Compared to what?
+
+In the intro you state:  “we believe the future of conformational validation should integrate sidechain and backbone. “   … Not sure what you are suggesting, as this sentence lacks sufficient detail. What part of how side chains and backbones are modeled need be integrated?
+
+
+On p. 5. You say “Design libraries and validation libraries focus on two distinct areas of the distributions; while design and prediction are concerned with statistics inside the low-energy wells, validation (and experimental model-building, for the most part) is concerned with avoiding the unacceptable outliers beyond the edges of those wells. “ … I don’t think things are so clearly separated, and also most readers will be confused by this.  Can you rephrase this so that it puts what you are saying into an operational or a practical context?
+
+Should “chain-level” be expanded in the subheading to the section “Chain-level filters” to “Main-chain” or “backbone conformation”  or “overall quality filters” ?
+
+The following sentence on page 7 made no real sense “This entire set of datasets is therefore nicknamed the ”Top8000” of structural biology’s upper class. “
+
+Section 5.1 should be a single well organized paragraph, not a collection of 5 single sentence paragraphs.  I’m also not completely sure this section (and the designation of ultimate) is completely necessary. It is quite clear you have made a contribution, it is perhaps less clear that we can be absolutely sure we will not want to iterate rotamer library development one or more times after this.
+
+Reviewer: 2
+
+Comments to the Author
+This is an interesting and well written manuscript, albeit perhaps at parts too detailed for the average reader.
+
+Introduction: Please mention the gauche+/- nomenclature
+
+References to side chain building could include the PDB_REDO tool "Side_Aide" and the Lego_Side_Chain options from O.
+
+A reference to RSCC is missing (page 6)
+
+Page 9 "worst B factor <40" , please clarify that this corresponds to the total isotropic B factor.
+
+Page 10, top: Please reference KDE methods
+
+Figure 2. Please add supplemental figure for Phe and Tyr, specifically; they were suffering in older versions.
+
+### END REVIEWERS COMMENTS#####
+
+
+
+A checklist of things to address
+
+- Could you devise a figure or table that more directly or comprehensively compares the older (penultimate) rotamer library to the new (ultimate) you describe here
+
+BJH: I have a table that compares the # of outliers in the unfiltered dataset between Top500-contour analysis and Top8000-contour analysis. Further, Figure 2 compares the 500/8000 contours for Asp, Trp, and Ile. I could make a figure for the remaining 15. We could put these in the supplement. 
+
+
+- In intro you say: “The combined new protocol retains a million residues of data, while cleaning up noise in the multi-dimensional χ distributions. It enables clean characterization of conformational clusters nearly 1000-fold less frequent than the most common ones.” … ‘Noise’ and ‘Clean’ are quite imprecise in this context. Noise in what estimate? Compared to what?
+
+BJH : Actually in the abstract. Fair point on use of 'noise', a bit of a pedantic critique of our use of 'clean'. Its pretty clear what we mean by clean.
+
+
+
+- In the intro you state:  “we believe the future of conformational validation should integrate sidechain and backbone. “   … Not sure what you are suggesting, as this sentence lacks sufficient detail. What part of how side chains and backbones are modeled need be integrated?
+
+BJH : Again, in the abstract, not intro. I actually agree IF this weren't in the abstract and we didn't have a detailed paragraph about this very point in the discussion! Here is a preposed respnse:
+
+This is critiquing a sentence in the abstract, as such detail here is not appropriate. This point is explained in detail, as requested, in section 5.1.
+
+
+
+- On p. 5. You say “Design libraries and validation libraries focus on two distinct areas of the distributions; while design and prediction are concerned with statistics inside the low-energy wells, validation (and experimental model-building, for the most part) is concerned with avoiding the unacceptable outliers beyond the edges of those wells. “ … I don’t think things are so clearly separated, and also most readers will be confused by this.  Can you rephrase this so that it puts what you are saying into an operational or a practical context?
+
+BJH : Any ideas here??
+
+
+
+- Should “chain-level” be expanded in the subheading to the section “Chain-level filters” to “Main-chain” or “backbone conformation”  or “overall quality filters” ?
+
+BJH : I am not sure they understand that we are refering to a PDB chain. This is not just backbone, this looks at the overall chain. Perhaps "overall quality filter", as suggested, or "overall chain-level filter"??
+
+
+
+
+- The following sentence on page 7 made no real sense “This entire set of datasets is therefore nicknamed the ”Top8000” of structural biology’s upper class. “
+
+BJH : I agree, this needs attention. In context it makes sense to just say "These datasets are thus nicknamed the ”Top8000” of structural biology’s upper class. “ We could even leave out "of structural biology’s upper class.“, and say "These datasets are thus nicknamed the ”Top8000”.” I'd be fine with that.
+ 
+
+
+
+
+- Section 5.1 should be a single well organized paragraph, not a collection of 5 single sentence paragraphs.  I’m also not completely sure this section (and the designation of ultimate) is completely necessary. It is quite clear you have made a contribution, it is perhaps less clear that we can be absolutely sure we will not want to iterate rotamer library development one or more times after this.
+
+BJH : Obviously we are keeping ultimate for historical reasons and, as we laid out, other reasons. We can argue for keeping it. Having said that, I think it is worth rethinking the paragraphic structure of 5.1.
+
+
+
+
+- Introduction: Please mention the gauche+/- nomenclature
+
+BJH : Fair. Can do.
+
+
+
+- References to side chain building could include the PDB_REDO tool "Side_Aide" and the Lego_Side_Chain options from O.
+
+BJH : Fair. Can do.
+
+
+
+- A reference to RSCC is missing (page 6)
+
+BJH : We discussed this. If I recall we had a hard time identifying a citation to the rest-space correlation - the citation for the residual was clear but not the correlation coefficient. Any suggestions?
+
+
+
+
+
+- Page 9 "worst B factor <40" , please clarify that this corresponds to the total isotropic B factor.
+
+
+BJH : Whatever, Can do.
+
+
+- Page 10, top: Please reference KDE methods
+
+BJH : Is this worth doing? As I recall the lab came up with the method independently and the later realized it was a KDE. We do cite the penultimate paper here which does detail our method...
+
+
+
+- Figure 2. Please add supplemental figure for Phe and Tyr, specifically; they were suffering in older versions.
+
+BJH : It will take time but may be worth doing for all residue types. This may resolve reviewer 1’s first comment too.
