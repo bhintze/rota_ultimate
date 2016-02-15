@@ -1,0 +1,84 @@
+% Bradley Hintze -- Proteins Manuscript
+\documentclass[12pt]{article}
+
+\usepackage{authblk}
+\usepackage{gensymb,wrapfig,booktabs}
+\bibliographystyle{unsrt}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{fixltx2e}
+\usepackage{natbib}
+\usepackage{longtable}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage[bottom=1in, top=1in, left=1in, right=1in]{geometry}
+\usepackage{pdflscape}
+\usepackage{epstopdf}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{setspace}
+\graphicspath{{figure_files/}}
+
+
+%-----------------------------------------------------------------------------%
+% HYPERREF: plain black hypertext references for ref's and cite's.
+%-----------------------------------------------------------------------------%
+\usepackage[pdftex, plainpages=false, 
+                                letterpaper, bookmarks, bookmarksnumbered,
+                                colorlinks, linkcolor=black, citecolor=black,
+                 filecolor=black, urlcolor=black]
+                                {hyperref}
+
+\newcommand{\Dmap}{mF$_{o}$-DF$_{c}$}
+\newcommand{\EDmap}{2mF$_{o}$-DF$_{c}$}
+
+
+
+\begin{document}
+\input{figure_commands}
+
+% title page
+\input{title_page}
+
+\newpage
+\tableofcontents
+
+
+\begin{doublespacing}
+
+% abstract
+\newpage
+\input{abstract}
+
+% text
+\newpage
+\input{introduction}
+\input{methods}
+\input{results}
+\input{discussion}
+
+\end{doublespacing}
+
+% references
+\newpage 
+\section{References}
+\bibliography{HintzeManuscript}  
+
+% figure legends
+\newpage
+\input{figure_captions} 
+
+
+% tables
+\clearpage
+\input{tables}
+
+
+% figures
+\clearpage
+\input{figures}
+
+% acknowledgments
+\clearpage
+\input{acknowledgments}
+
+\end{document}

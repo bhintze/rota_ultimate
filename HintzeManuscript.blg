@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: HintzeManuscript.aux
+The style file: unsrt.bst
+Database file #1: HintzeManuscript.bib
+You've used 40 entries,
+            1791 wiz_defined-function locations,
+            749 strings with 12940 characters,
+and the built_in function-call counts, 11175 in all, are:
+= -- 951
+> -- 667
+< -- 2
++ -- 237
+- -- 197
+* -- 1046
+:= -- 1839
+add.period$ -- 122
+call.type$ -- 40
+change.case$ -- 37
+chr.to.int$ -- 0
+cite$ -- 40
+duplicate$ -- 382
+empty$ -- 959
+format.name$ -- 197
+if$ -- 2335
+int.to.chr$ -- 0
+int.to.str$ -- 40
+missing$ -- 39
+newline$ -- 203
+num.names$ -- 42
+pop$ -- 53
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 148
+stack$ -- 0
+substring$ -- 936
+swap$ -- 58
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 114
+width$ -- 42
+write$ -- 446

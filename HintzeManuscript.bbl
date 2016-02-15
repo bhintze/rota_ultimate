@@ -1,0 +1,257 @@
+\begin{thebibliography}{10}
+
+\bibitem{lovell2000penultimate}
+Simon~C Lovell, J~Michael Word, Jane~S Richardson, and David~C Richardson.
+\newblock The penultimate rotamer library.
+\newblock {\em Proteins: Structure, Function, and Genetics}, 40(3):389--408,
+  2000.
+
+\bibitem{Eyring1932}
+Henry Eyring.
+\newblock Steric hindrance and collision diameters.
+\newblock {\em J. Am. Chem. Soc.}, 54(8):3191--3203, Aug 1932.
+
+\bibitem{Ponder1987}
+Jay~W. Ponder and Frederic~M. Richards.
+\newblock Tertiary templates for proteins.
+\newblock {\em Journal of Molecular Biology}, 193(4):775--791, Feb 1987.
+
+\bibitem{DunbrackJr2002431}
+Roland~L Dunbrack.
+\newblock Rotamer libraries in the 21st century.
+\newblock {\em Current Opinion in Structural Biology}, 12(4):431 -- 440, 2002.
+
+\bibitem{Berman2000}
+H.~M. Berman.
+\newblock The protein data bank.
+\newblock {\em Nucleic Acids Research}, 28(1):235--242, Jan 2000.
+
+\bibitem{RAMACHANDRAN1963}
+G~N Ramachandran, C~Ramakrishnan, and V~Sasisekharan.
+\newblock {Stereochemistry of polypeptide chain configurations.}
+\newblock {\em Journal of Molecular Biology}, 7:95--9, July 1963.
+
+\bibitem{JSR_theplot_2013}
+Jane~S Richardson, Daniel~A Keedy, and David~C Richardson.
+\newblock {``The Plot''} thickens: more data, more dimensions, more uses.
+\newblock In M.~Bansal and N.~Srinivasan, editors, {\em Biomolecular Forms and
+  Functions: A Celebration of 50 Years of the Ramachandran Map}, IISc
+  Press-WSPC publication, pages 46--61. World Scientific Publishing Company
+  Incorporated, 2013.
+
+\bibitem{Emsley:ba5144}
+P.~Emsley, B.~Lohkamp, W.~G. Scott, and K.~Cowtan.
+\newblock {Features and development of {\it Coot}}.
+\newblock {\em Acta Crystallographica Section D}, 66(4):486--501, Apr 2010.
+
+\bibitem{Adams:2010fk}
+Paul~D. Adams, Pavel~V. Afonine, G{\'{a}}bor Bunk{\'{o}}czi, Vincent~B. Chen,
+  Ian~W. Davis, Nathaniel Echols, Jeffrey~J. Headd, Li-Wei Hung, Gary~J.
+  Kapral, Ralf~W. Grosse-Kunstleve, Airlie~J. McCoy, Nigel~W. Moriarty, Robert
+  Oeffner, Randy~J. Read, David~C. Richardson, Jane~S. Richardson, Thomas~C.
+  Terwilliger, and Peter~H. Zwart.
+\newblock Phenix: a comprehensive python-based system for macromolecular
+  structure solution.
+\newblock {\em Acta Cryst Sect D}, 66(2):213--221, Jan 2010.
+
+\bibitem{Winn2011}
+Martyn~D. Winn, Charles~C. Ballard, Kevin~D. Cowtan, Eleanor~J. Dodson, Paul
+  Emsley, Phil~R. Evans, Ronan~M. Keegan, Eugene~B. Krissinel, Andrew G.~W.
+  Leslie, Airlie McCoy, Stuart~J. McNicholas, Garib~N. Murshudov, Navraj~S.
+  Pannu, Elizabeth~A. Potterton, Harold~R. Powell, Randy~J. Read, Alexei Vagin,
+  and Keith~S. Wilson.
+\newblock Overview of the {CCP} 4 suite and current developments.
+\newblock {\em Acta Crystallogr D Biol Cryst}, 67(4):235--242, mar 2011.
+
+\bibitem{Arendall2005}
+W.~Bryan Arendall, Wolfram Tempel, Jane~S. Richardson, Weihong Zhou, Shuren
+  Wang, Ian~W. Davis, Zhi-Jie Liu, John~P. Rose, W.~Michael Carson, Ming Luo,
+  David~C. Richardson, and Bi-Cheng Wang.
+\newblock A test of enhancing model accuracy in high-throughput
+  crystallography.
+\newblock {\em J Struct Funct Genomics}, 6(1):1--11, mar 2005.
+
+\bibitem{Bower1997}
+Michael~J. Bower, Fred~E. Cohen, and Roland~L. Dunbrack.
+\newblock Prediction of protein side-chain rotamers from a backbone-dependent
+  rotamer library: a new homology modeling tool.
+\newblock {\em Journal of Molecular Biology}, 267(5):1268--1282, apr 1997.
+
+\bibitem{Kuhlman21112003}
+B.~Kuhlman.
+\newblock Design of a novel globular protein fold with atomic-level accuracy.
+\newblock {\em Science}, 302(5649):1364--1368, Nov 2003.
+
+\bibitem{Gainza:2012}
+Pablo Gainza, Kyle~E. Roberts, and Bruce~R. Donald.
+\newblock Protein design using continuous rotamers.
+\newblock {\em {PLoS} Computational Biology}, 8(1):e1002335, Jan 2012.
+
+\bibitem{Laskowski:gl0276}
+R.~A. Laskowski, M.~W. MacArthur, D.~S. Moss, and J.~M. Thornton.
+\newblock {{\it PROCHECK}: a program to check the stereochemical quality of
+  protein structures}.
+\newblock {\em Journal of Applied Crystallography}, 26(2):283--291, Apr 1993.
+
+\bibitem{Chen:2010kx}
+Vincent~B. Chen, W.~Bryan Arendall, Jeffrey~J. Headd, Daniel~A. Keedy,
+  Robert~M. Immormino, Gary~J. Kapral, Laura~W. Murray, Jane~S. Richardson, and
+  David~C. Richardson.
+\newblock {MolProbity} : all-atom structure validation for macromolecular
+  crystallography.
+\newblock {\em Acta Cryst Sect D}, 66(1):12--21, Dec 2009.
+
+\bibitem{Hooft1996}
+R~W Hooft, G~Vriend, C~Sander, and E~E Abola.
+\newblock {Errors in protein structures.}
+\newblock {\em Nature}, 381(6580):272, May 1996.
+
+\bibitem{Tuffery1991}
+P.~Tuffery, C.~Etchebest, S.~Hazout, and R.~Lavery.
+\newblock A new approach to the rapid determination of protein side chain
+  conformations.
+\newblock {\em Journal of Biomolecular Structure and Dynamics},
+  8(6):1267--1289, jun 1991.
+
+\bibitem{Schrauber1993}
+Hannelore Schrauber, Frank Eisenhaber, and Patrick Argos.
+\newblock Rotamers: To be or not to be?
+\newblock {\em Journal of Molecular Biology}, 230(2):592--612, mar 1993.
+
+\bibitem{DeMaeyer1997}
+M~{De Maeyer}, J~Desmet, and I~Lasters.
+\newblock {All in one: a highly detailed rotamer library improves both accuracy
+  and speed in the modelling of sidechains by dead-end elimination.}
+\newblock {\em Folding \& design}, 2(1):53--66, January 1997.
+
+\bibitem{Gainza2013}
+Pablo Gainza, Kyle~E. Roberts, Ivelin Georgiev, Ryan~H. Lilien, Daniel~A.
+  Keedy, Cheng-Yu Chen, Faisal Reza, Amy~C. Anderson, David~C. Richardson,
+  Jane~S. Richardson, and Bruce~R. Donald.
+\newblock {\em OSPREY: Protein Design with Ensembles, Flexibility, and Provable
+  Algorithms}.
+\newblock Academic Press, 2013.
+
+\bibitem{Dunbrack1997}
+Roland~L. Dunbrack and Fred~E. Cohen.
+\newblock Bayesian statistical analysis of protein side-chain rotamer
+  preferences.
+\newblock {\em Protein Sci.}, 6(8):1661--1681, aug 1997.
+
+\bibitem{Read2011}
+Randy~J. Read, Paul~D. Adams, W.~Bryan Arendall, Axel~T. Brunger, Paul Emsley,
+  Robbie~P. Joosten, Gerard~J. Kleywegt, Eugene~B. Krissinel, Thomas
+  L\"{u}tteke, Zbyszek Otwinowski, Anastassis Perrakis, Jane~S. Richardson,
+  William~H. Sheffler, Janet~L. Smith, Ian~J. Tickle, Gert Vriend, and Peter~H.
+  Zwart.
+\newblock A new generation of crystallographic validation tools for the protein
+  data bank.
+\newblock {\em Structure}, 19(10):1395--1412, Oct 2011.
+
+\bibitem{Lovell:2003uq}
+Simon~C. Lovell, Ian~W. Davis, W.~Bryan Arendall, Paul I.~W. de~Bakker,
+  J.~Michael Word, Michael~G. Prisant, Jane~S. Richardson, and David~C.
+  Richardson.
+\newblock Structure validation by {C$\alpha$} geometry: $\phi$, $\psi$ and
+  {C$\beta$} deviation.
+\newblock {\em Proteins}, 50(3):437--450, Jan 2003.
+
+\bibitem{Word1999}
+J.Michael Word, Simon~C. Lovell, Thomas~H. LaBean, Hope~C. Taylor, Michael~E.
+  Zalis, Brent~K. Presley, Jane~S. Richardson, and David~C. Richardson.
+\newblock Visualizing and quantifying molecular goodness-of-fit: small-probe
+  contact dots with explicit hydrogen atoms.
+\newblock {\em Journal of Molecular Biology}, 285(4):1711--1733, jan 1999.
+
+\bibitem{Engh1991}
+R.~A. Engh and R.~Huber.
+\newblock Accurate bond and angle parameters for x-ray protein structure
+  refinement.
+\newblock {\em Acta Cryst Sect A}, 47(4):392--400, Jul 1991.
+
+\bibitem{Shapovalov:2007}
+Maxim~V. Shapovalov and Roland~L. Dunbrack.
+\newblock Statistical and conformational analysis of the electron density of
+  protein side chains.
+\newblock {\em Proteins: Structure, Function, and Bioinformatics},
+  66(2):279--303, 2007.
+
+\bibitem{Word19991735}
+J.Michael Word, Simon~C. Lovell, Jane~S. Richardson, and David~C. Richardson.
+\newblock Asparagine and glutamine: using hydrogen atom contacts in the choice
+  of side-chain amide orientation.
+\newblock {\em Journal of Molecular Biology}, 285(4):1735--1747, Jan 1999.
+
+\bibitem{Dabbish:2012}
+Laura Dabbish, Colleen Stuart, Jason Tsay, and Jim Herbsleb.
+\newblock Social coding in github: Transparency and collaboration in an open
+  software repository.
+\newblock In {\em Proceedings of the ACM 2012 Conference on Computer Supported
+  Cooperative Work}, CSCW '12, pages 1277--1286, New York, NY, USA, 2012. ACM.
+
+\bibitem{Thesis:Word}
+J.~Michael Word.
+\newblock {\em All-Atom Small-Probe Contact Surface Analysis}.
+\newblock PhD thesis, Duke University, 2000.
+
+\bibitem{Thesis:Davis}
+Ian~W. Davis.
+\newblock {\em Local Motion and Local Accuracy in Protein Backbone}.
+\newblock PhD thesis, Duke University, 2006.
+
+\bibitem{Kleywegt1996}
+Gerard~J Kleywegt and T~Alwyn Jones.
+\newblock Phi/psi-chology: Ramachandran revisited.
+\newblock {\em Structure}, 4(12):1395--1400, dec 1996.
+
+\bibitem{Chen2009}
+Vincent~B. Chen, Ian~W. Davis, and David~C. Richardson.
+\newblock {K}i{NG} ({K}inemage, {N}ext {G}eneration): A versatile interactive
+  molecular and scientific visualization program.
+\newblock {\em Protein Science}, 18(11):2403--2409, nov 2009.
+
+\bibitem{Lovell1999}
+S.~C. Lovell, J.~M. Word, J.~S. Richardson, and D.~C. Richardson.
+\newblock Asparagine and glutamine rotamers: B-factor cutoff and correction of
+  amide flips yield distinct clustering.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  96(2):400--405, jan 1999.
+
+\bibitem{Butterfoss2003}
+Glenn~L. Butterfoss and Jan Hermans.
+\newblock Boltzmann-type distribution of side-chain conformation in proteins.
+\newblock {\em Protein Sci.}, 12(12):2719--2731, dec 2003.
+
+\bibitem{Butterfoss2004}
+Glenn~L. Butterfoss, Jane~S. Richardson, and Jan Hermans.
+\newblock Protein imperfections: separating intrinsic from extrinsic variation
+  of torsion angles.
+\newblock {\em Acta Cryst Sect D}, 61(1):88--98, dec 2004.
+
+\bibitem{Siezen1997}
+Roland~J. Siezen and Jack A.~M. Leunissen.
+\newblock Subtilases: The superfamily of subtilisin-like serine proteases.
+\newblock {\em Protein Science}, 6(3):501--523, mar 1997.
+
+\bibitem{Langer2008}
+Gerrit Langer, Serge~X Cohen, Victor~S Lamzin, and Anastassis Perrakis.
+\newblock {Automated macromolecular model building for X-ray crystallography
+  using ARP/wARP version 7.}
+\newblock {\em Nature Protocols}, 3(7):1171--9, January 2008.
+
+\bibitem{Headd2008}
+Jeffrey~J. Headd, Robert~M. Immormino, Daniel~A. Keedy, Paul Emsley, David~C.
+  Richardson, and Jane~S. Richardson.
+\newblock Autofix for backward-fit sidechains: using {MolProbity} and
+  real-space refinement to put misfits in their place.
+\newblock {\em J Struct Funct Genomics}, 10(1):83--93, nov 2008.
+
+\bibitem{Terwilliger2008}
+Thomas~C Terwilliger, Ralf~W Grosse-Kunstleve, Pavel~V Afonine, Nigel~W
+  Moriarty, Peter~H Zwart, Li~Wei Hung, Randy~J Read, and Paul~D Adams.
+\newblock Iterative model building, structure refinement and density
+  modification with the phenix autobuild wizard.
+\newblock {\em Acta crystallographica. Section D, Biological crystallography},
+  64(Pt 1):61--9, January 2008.
+
+\end{thebibliography}
