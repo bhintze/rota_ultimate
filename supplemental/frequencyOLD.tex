@@ -1,0 +1,265 @@
+\newcommand\makeSect{%
+\section{Top8000 Filtered Dataset: Rotamer Frequency}
+\label{app:RotaFreq}
+
+The following is a table describing counts of each of the 213 rotamers identified in the Top8000 filtered dataset. n is the count of each rotamer, \% is the percent of the rotamer that occurs in the given residue type (e.g. 17.7\% of CYS are \textbf{p}). Also noted is the \textit{rarity} of each rotamer, defined at two levels -- a singe and double checkmark. The rarity metric is normalized by both the number of residues and the number of rotamer types in a given residue type. If the empirical count for a rotamer is $<$ 8\% or $<$ 1\% of the \textit{expected rotamer count} then the rarity is marked with a single or double checkmark, respectively. The \textit{expected rotamer count} is the number of residues in a rotamer bin if all residues were distributed equally to all rotamer bins for a given residue type. e.g. if SER had 3000 residues in the dataset then the \textit{expected count} for each of the three rotamers would be 1000. Further, if one of these rotamers had an empirical count $<$ 80 or $<$ 10, the \textit{rarity} would be marked with a single or double checkmark respectively.\\
+}
+\twocolumn[\makeSect]
+\begin{footnotesize}
+
+\tablehead{residue & rotamer & n & \% & rarity \\ \hline}
+
+\begin{supertabular}{llllc}
+\multicolumn{5}{c}{\textbf{SER : TOTAL N = 76186}} \\ \hline
+SER & p & 36901 & 48.44 & -\\ \hline 
+SER & m & 21558 & 28.30 & -\\ \hline 
+SER & t & 17502 & 22.97 & -\\ \hline 
+SER & OUTLIER & 225 & 0.30 & \\ \hline 
+\multicolumn{5}{c}{\textbf{CYS : TOTAL N = 16708}} \\ \hline
+CYS & p & 2962 & 17.73 & -\\ \hline 
+CYS & m & 9301 & 55.67 & -\\ \hline 
+CYS & t & 4399 & 26.33 & -\\ \hline 
+CYS & OUTLIER & 46 & 0.28 & \\ \hline 
+\multicolumn{5}{c}{\textbf{THR : TOTAL N = 75180}} \\ \hline
+THR & p & 36195 & 48.14 & -\\ \hline 
+THR & m & 33559 & 44.64 & -\\ \hline 
+THR & t & 5197 & 6.91 & -\\ \hline 
+THR & OUTLIER & 229 & 0.30 & \\ \hline 
+\multicolumn{5}{c}{\textbf{VAL : TOTAL N = 97050}} \\ \hline
+VAL & p & 6015 & 6.20 & -\\ \hline 
+VAL & m & 17410 & 17.94 & -\\ \hline 
+VAL & t & 73329 & 75.56 & -\\ \hline 
+VAL & OUTLIER & 296 & 0.30 & \\ \hline 
+\multicolumn{5}{c}{\textbf{PRO : TOTAL N = 59515}} \\ \hline
+PRO & Cg\_exo & 30128 & 50.62 & -\\ \hline 
+PRO & Cg\_endo & 29192 & 49.05 & -\\ \hline 
+PRO & OUTLIER & 195 & 0.33 & \\ \hline 
+\multicolumn{5}{c}{\textbf{LEU : TOTAL N = 115053}} \\ \hline
+LEU & pp & 521 & 0.45 & \checkmark\\ \hline 
+LEU & pt & 378 & 0.33 & \checkmark\\ \hline 
+LEU & mm & 484 & 0.42 & \checkmark\\ \hline 
+LEU & tt & 1576 & 1.37 & -\\ \hline 
+LEU & tp & 34655 & 30.12 & -\\ \hline 
+LEU & mt & 74252 & 64.54 & -\\ \hline 
+LEU & tm & 143 & 0.12 & \checkmark\\ \hline 
+LEU & mp & 2711 & 2.36 & -\\ \hline 
+LEU & OUTLIER & 333 & 0.29 & \\ \hline 
+\multicolumn{5}{c}{\textbf{ILE : TOTAL N = 71693}} \\ \hline
+ILE & pp & 254 & 0.35 & \checkmark\\ \hline 
+ILE & pt & 8837 & 12.33 & -\\ \hline 
+ILE & mm & 11258 & 15.70 & -\\ \hline 
+ILE & tt & 4163 & 5.81 & -\\ \hline 
+ILE & tp & 1869 & 2.61 & -\\ \hline 
+ILE & mt & 44470 & 62.03 & -\\ \hline 
+ILE & mp & 623 & 0.87 & \checkmark\\ \hline 
+ILE & OUTLIER & 219 & 0.31 & \\ \hline 
+\multicolumn{5}{c}{\textbf{ASN : TOTAL N = 53650}} \\ \hline
+ASN & p0 & 7513 & 14.00 & -\\ \hline 
+ASN & m-40 & 26292 & 49.01 & -\\ \hline 
+ASN & t160 & 61 & 0.11 & \checkmark\checkmark\\ \hline 
+ASN & m110 & 4003 & 7.46 & -\\ \hline 
+ASN & t0 & 15610 & 29.10 & -\\ \hline 
+ASN & OUTLIER & 171 & 0.32 & \\ \hline 
+\multicolumn{5}{c}{\textbf{ASP : TOTAL N = 72336}} \\ \hline
+ASP & p0 & 11746 & 16.24 & -\\ \hline 
+ASP & m-30 & 37239 & 51.48 & -\\ \hline 
+ASP & t70 & 6029 & 8.33 & -\\ \hline 
+ASP & t0 & 17107 & 23.65 & -\\ \hline 
+ASP & OUTLIER & 215 & 0.30 & \\ \hline 
+\multicolumn{5}{c}{\textbf{HIS : TOTAL N = 29791}} \\ \hline
+HIS & t-170 & 1332 & 4.47 & -\\ \hline 
+HIS & p90 & 1492 & 5.01 & -\\ \hline 
+HIS & m90 & 3914 & 13.14 & -\\ \hline 
+HIS & t-90 & 3553 & 11.93 & -\\ \hline 
+HIS & m170 & 2695 & 9.05 & -\\ \hline 
+HIS & m-70 & 9453 & 31.73 & -\\ \hline 
+HIS & t70 & 5068 & 17.01 & -\\ \hline 
+HIS & p-80 & 2203 & 7.39 & -\\ \hline 
+HIS & OUTLIER & 81 & 0.27 & \\ \hline 
+\multicolumn{5}{c}{\textbf{PHE : TOTAL N = 56282}} \\ \hline
+PHE & p90 & 6289 & 11.17 & -\\ \hline 
+PHE & m-10 & 3880 & 6.89 & -\\ \hline 
+PHE & m-80 & 26665 & 47.38 & -\\ \hline 
+PHE & t80 & 19289 & 34.27 & -\\ \hline 
+PHE & OUTLIER & 159 & 0.28 & \\ \hline 
+\multicolumn{5}{c}{\textbf{TYR : TOTAL N = 47243}} \\ \hline
+TYR & p90 & 5466 & 11.57 & -\\ \hline 
+TYR & m-10 & 2623 & 5.55 & -\\ \hline 
+TYR & m-80 & 22683 & 48.01 & -\\ \hline 
+TYR & t80 & 16312 & 34.53 & -\\ \hline 
+TYR & OUTLIER & 159 & 0.34 & \\ \hline 
+\multicolumn{5}{c}{\textbf{TRP : TOTAL N = 18715}} \\ \hline
+TRP & m-90 & 961 & 5.13 & -\\ \hline 
+TRP & m100 & 6319 & 33.76 & -\\ \hline 
+TRP & p90 & 971 & 5.19 & -\\ \hline 
+TRP & t60 & 3385 & 18.09 & -\\ \hline 
+TRP & t-100 & 2893 & 15.46 & -\\ \hline 
+TRP & m-10 & 2196 & 11.73 & -\\ \hline 
+TRP & p-90 & 1937 & 10.35 & -\\ \hline 
+TRP & OUTLIER & 53 & 0.28 & \\ \hline 
+\multicolumn{5}{c}{\textbf{MET : TOTAL N = 16794}} \\ \hline
+MET & pmt & 7 & 0.04 & \checkmark\\ \hline 
+MET & ptm & 375 & 2.23 & -\\ \hline 
+MET & ttp & 1246 & 7.42 & -\\ \hline 
+MET & ttt & 569 & 3.39 & -\\ \hline 
+MET & ppp & 50 & 0.30 & \checkmark\\ \hline 
+MET & ttm & 1124 & 6.69 & -\\ \hline 
+MET & pmm & 42 & 0.25 & \checkmark\\ \hline 
+MET & ptt & 260 & 1.55 & -\\ \hline 
+MET & ptp & 404 & 2.41 & -\\ \hline 
+MET & tmt & 34 & 0.20 & \checkmark\\ \hline 
+MET & pp-130 & 27 & 0.16 & \checkmark\\ \hline 
+MET & mtm & 1851 & 11.02 & -\\ \hline 
+MET & tmm & 276 & 1.64 & -\\ \hline 
+MET & mmt & 597 & 3.55 & -\\ \hline 
+MET & mpm & 13 & 0.08 & \checkmark\\ \hline 
+MET & mmp & 520 & 3.10 & -\\ \hline 
+MET & mmm & 3354 & 19.97 & -\\ \hline 
+MET & mpt & 34 & 0.20 & \checkmark\\ \hline 
+MET & mpp & 74 & 0.44 & -\\ \hline 
+MET & mtp & 2815 & 16.76 & -\\ \hline 
+MET & mtt & 1542 & 9.18 & -\\ \hline 
+MET & tpt & 388 & 2.31 & -\\ \hline 
+MET & tpp & 1138 & 6.78 & -\\ \hline 
+MET & OUTLIER & 54 & 0.32 & \\ \hline 
+\multicolumn{5}{c}{\textbf{GLU : TOTAL N = 57462}} \\ \hline
+GLU & pp20 & 159 & 0.28 & \checkmark\\ \hline 
+GLU & tt0 & 13610 & 23.69 & -\\ \hline 
+GLU & mm-30 & 9080 & 15.80 & -\\ \hline 
+GLU & tm-30 & 862 & 1.50 & -\\ \hline 
+GLU & tp30 & 4616 & 8.03 & -\\ \hline 
+GLU & mt-10 & 21021 & 36.58 & -\\ \hline 
+GLU & mp0 & 3671 & 6.39 & -\\ \hline 
+GLU & pm20 & 1485 & 2.58 & -\\ \hline 
+GLU & pt0 & 2800 & 4.87 & -\\ \hline 
+GLU & OUTLIER & 158 & 0.27 & \\ \hline 
+\multicolumn{5}{c}{\textbf{GLN : TOTAL N = 37119}} \\ \hline
+GLN & mm110 & 1147 & 3.09 & -\\ \hline 
+GLN & tp40 & 3618 & 9.75 & -\\ \hline 
+GLN & mp10 & 1207 & 3.25 & -\\ \hline 
+GLN & mt0 & 14370 & 38.71 & -\\ \hline 
+GLN & tt0 & 6936 & 18.69 & -\\ \hline 
+GLN & mp-120 & 87 & 0.23 & \checkmark\\ \hline 
+GLN & tm-30 & 547 & 1.47 & -\\ \hline 
+GLN & pp30 & 178 & 0.48 & \checkmark\\ \hline 
+GLN & mm-40 & 5959 & 16.05 & -\\ \hline 
+GLN & pm20 & 487 & 1.31 & -\\ \hline 
+GLN & tp-100 & 534 & 1.44 & -\\ \hline 
+GLN & tm130 & 55 & 0.15 & \checkmark\\ \hline 
+GLN & pt0 & 1885 & 5.08 & -\\ \hline 
+GLN & OUTLIER & 109 & 0.29 & \\ \hline 
+\multicolumn{5}{c}{\textbf{ARG : TOTAL N = 46380}} \\ \hline
+ARG & ttp-170 & 1533 & 3.31 & -\\ \hline 
+ARG & pmt170 & 39 & 0.08 & \checkmark\\ \hline 
+ARG & mtp180 & 2504 & 5.40 & -\\ \hline 
+ARG & pmm-80 & 19 & 0.04 & \checkmark\\ \hline 
+ARG & ttp-110 & 623 & 1.34 & -\\ \hline 
+ARG & pmt-80 & 27 & 0.06 & \checkmark\\ \hline 
+ARG & mpt180 & 245 & 0.53 & -\\ \hline 
+ARG & mtt90 & 2460 & 5.30 & -\\ \hline 
+ARG & ttt-90 & 1380 & 2.98 & -\\ \hline 
+ARG & mpp-170 & 64 & 0.14 & -\\ \hline 
+ARG & mtm110 & 781 & 1.68 & -\\ \hline 
+ARG & ptm160 & 502 & 1.08 & -\\ \hline 
+ARG & tpm-80 & 20 & 0.04 & \checkmark\\ \hline 
+ARG & tpp80 & 363 & 0.78 & -\\ \hline 
+ARG & tpt-90 & 365 & 0.79 & -\\ \hline 
+ARG & ttt90 & 1057 & 2.28 & -\\ \hline 
+ARG & ttt180 & 2339 & 5.04 & -\\ \hline 
+ARG & ptt90 & 814 & 1.76 & -\\ \hline 
+ARG & ptp-170 & 388 & 0.84 & -\\ \hline 
+ARG & mpt90 & 46 & 0.10 & \checkmark\\ \hline 
+ARG & ppp80 & 10 & 0.02 & \checkmark\\ \hline 
+ARG & pmm150 & 12 & 0.03 & \checkmark\\ \hline 
+ARG & tmt90 & 23 & 0.05 & \checkmark\\ \hline 
+ARG & ptp90 & 223 & 0.48 & -\\ \hline 
+ARG & ptt-90 & 726 & 1.57 & -\\ \hline 
+ARG & mtp85 & 1857 & 4.00 & -\\ \hline 
+ARG & mmm160 & 951 & 2.05 & -\\ \hline 
+ARG & ptp-110 & 77 & 0.17 & -\\ \hline 
+ARG & pmt100 & 4 & 0.01 & \checkmark\checkmark\\ \hline 
+ARG & mmm-85 & 1022 & 2.20 & -\\ \hline 
+ARG & mmt90 & 567 & 1.22 & -\\ \hline 
+ARG & tmm-80 & 71 & 0.15 & -\\ \hline 
+ARG & mmp80 & 164 & 0.35 & -\\ \hline 
+ARG & mpp80 & 54 & 0.12 & \checkmark\\ \hline 
+ARG & ppt170 & 57 & 0.12 & \checkmark\\ \hline 
+ARG & tmt170 & 104 & 0.22 & -\\ \hline 
+ARG & tpt170 & 825 & 1.78 & -\\ \hline 
+ARG & mtm180 & 2407 & 5.19 & -\\ \hline 
+ARG & tpm170 & 110 & 0.24 & -\\ \hline 
+ARG & tpt90 & 652 & 1.41 & -\\ \hline 
+ARG & ptt180 & 820 & 1.77 & -\\ \hline 
+ARG & ttp80 & 1896 & 4.09 & -\\ \hline 
+ARG & mmt-90 & 1428 & 3.08 & -\\ \hline 
+ARG & mtp-110 & 470 & 1.01 & -\\ \hline 
+ARG & ttm-80 & 1504 & 3.24 & -\\ \hline 
+ARG & mpt-90 & 85 & 0.18 & -\\ \hline 
+ARG & ptm-80 & 215 & 0.46 & -\\ \hline 
+ARG & ttm170 & 1317 & 2.84 & -\\ \hline 
+ARG & ppp-140 & 4 & 0.01 & \checkmark\checkmark\\ \hline 
+ARG & mmp-170 & 123 & 0.27 & -\\ \hline 
+ARG & ttm110 & 725 & 1.56 & -\\ \hline 
+ARG & ppt-90 & 15 & 0.03 & \checkmark\\ \hline 
+ARG & mmt180 & 1203 & 2.59 & -\\ \hline 
+ARG & mtt-85 & 2843 & 6.13 & -\\ \hline 
+ARG & tmt-80 & 62 & 0.13 & -\\ \hline 
+ARG & mtm-85 & 2848 & 6.14 & -\\ \hline 
+ARG & tmm160 & 92 & 0.20 & -\\ \hline 
+ARG & mtt180 & 4592 & 9.90 & -\\ \hline 
+ARG & ppt90 & 19 & 0.04 & \checkmark\\ \hline 
+ARG & tpp-160 & 496 & 1.07 & -\\ \hline 
+ARG & OUTLIER & 138 & 0.30 & \\ \hline 
+\multicolumn{5}{c}{\textbf{LYS : TOTAL N = 34829}} \\ \hline
+LYS & tmtp & 11 & 0.03 & \checkmark\\ \hline 
+LYS & tppt & 272 & 0.78 & -\\ \hline 
+LYS & mtpt & 1357 & 3.90 & -\\ \hline 
+LYS & mtpp & 392 & 1.13 & -\\ \hline 
+LYS & mtpm & 17 & 0.05 & \checkmark\\ \hline 
+LYS & ttmm & 197 & 0.57 & -\\ \hline 
+LYS & mmpt & 31 & 0.09 & \checkmark\\ \hline 
+LYS & tptt & 1228 & 3.53 & -\\ \hline 
+LYS & pttm & 268 & 0.77 & -\\ \hline 
+LYS & ptpt & 148 & 0.42 & -\\ \hline 
+LYS & mtmp & 9 & 0.03 & \checkmark\\ \hline 
+LYS & mmtp & 463 & 1.33 & -\\ \hline 
+LYS & mtmt & 1314 & 3.77 & -\\ \hline 
+LYS & mmtt & 3137 & 9.01 & -\\ \hline 
+LYS & ptmt & 187 & 0.54 & -\\ \hline 
+LYS & mtmm & 424 & 1.22 & -\\ \hline 
+LYS & mmtm & 727 & 2.09 & -\\ \hline 
+LYS & pttt & 1385 & 3.98 & -\\ \hline 
+LYS & pmtt & 10 & 0.03 & \checkmark\\ \hline 
+LYS & tppp & 37 & 0.11 & \checkmark\\ \hline 
+LYS & pttp & 240 & 0.69 & -\\ \hline 
+LYS & pmmt & 1 & 0.00 & \checkmark\checkmark\\ \hline 
+LYS & ptpp & 89 & 0.26 & -\\ \hline 
+LYS & mptt & 124 & 0.36 & -\\ \hline 
+LYS & tmtt & 82 & 0.24 & -\\ \hline 
+LYS & mptp & 26 & 0.07 & \checkmark\\ \hline 
+LYS & mmmt & 544 & 1.56 & -\\ \hline 
+LYS & tmmt & 33 & 0.09 & \checkmark\\ \hline 
+LYS & pptt & 25 & 0.07 & \checkmark\\ \hline 
+LYS & tttm & 1176 & 3.38 & -\\ \hline 
+LYS & mppt & 31 & 0.09 & \checkmark\\ \hline 
+LYS & mmmm & 90 & 0.26 & -\\ \hline 
+LYS & tmmm & 8 & 0.02 & \checkmark\\ \hline 
+LYS & tttt & 5043 & 14.48 & -\\ \hline 
+LYS & tptm & 197 & 0.57 & -\\ \hline 
+LYS & tptp & 409 & 1.17 & -\\ \hline 
+LYS & mptm & 11 & 0.03 & \checkmark\\ \hline 
+LYS & ttmt & 674 & 1.94 & -\\ \hline 
+LYS & tmtm & 20 & 0.06 & \checkmark\\ \hline 
+LYS & tttp & 1233 & 3.54 & -\\ \hline 
+LYS & ttpt & 883 & 2.54 & -\\ \hline 
+LYS & ttpp & 229 & 0.66 & -\\ \hline 
+LYS & mttm & 1829 & 5.25 & -\\ \hline 
+LYS & ttpm & 4 & 0.01 & \checkmark\checkmark\\ \hline 
+LYS & mttp & 1414 & 4.06 & -\\ \hline 
+LYS & mttt & 8597 & 24.68 & -\\ \hline 
+LYS & ttmp & 9 & 0.03 & \checkmark\\ \hline 
+LYS & ptmm & 80 & 0.23 & -\\ \hline 
+LYS & OUTLIER & 114 & 0.33 & \\ \hline 
+\end{supertabular}
+\end{footnotesize}
+\onecolumn

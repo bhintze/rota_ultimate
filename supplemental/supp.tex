@@ -1,0 +1,52 @@
+
+% Bradley Hintze -- June 2013
+\documentclass{article}
+
+%\usepackage{rough_draft}
+\usepackage{gensymb,wrapfig,booktabs,amssymb}
+\bibliographystyle{unsrt}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{fixltx2e}
+\usepackage{longtable}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage[bottom=1in, top=1in, left=0.75in, right=0.75in]{geometry}
+\usepackage{pdflscape}
+\usepackage{supertabular}
+\usepackage{xcolor,colortbl}
+\graphicspath{{figures/}}
+%\linespread{2}
+%-----------------------------------------------------------------------------%
+% HYPERREF: plain black hypertext references for ref's and cite's.
+%-----------------------------------------------------------------------------%
+\usepackage[pdftex, pdfusetitle, plainpages=false, 
+                                letterpaper, bookmarks, bookmarksnumbered,
+                                colorlinks, linkcolor=black, citecolor=black,
+                 filecolor=black, urlcolor=black]
+                                {hyperref}
+
+
+\definecolor{Gray}{gray}{0.85}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+
+\newcolumntype{a}{>{\columncolor{Gray}}c}
+\newcolumntype{b}{>{\columncolor{white}}c}
+
+\begin{document}
+
+\title{Rough Draft of Supplemental Material}
+\author{Bradley Hintze}
+\date{November 2014}
+\maketitle
+\tableofcontents
+
+\newpage
+\input{residuecounts}
+\newpage
+\input{frequency}
+\newpage
+\input{chis_and_angles}
+\newpage
+%\input{pdbchains}
+
+\end{document}

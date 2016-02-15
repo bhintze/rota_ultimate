@@ -1,0 +1,3 @@
+$ cd /Users/bhintze/RLabResearch/rotamer_paper_2013/paper/table/central_values
+$ python create_freq_tex.py > ../../supplemental/frequency.tex
+
