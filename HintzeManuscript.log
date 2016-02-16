@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  16 FEB 2016 15:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  16 FEB 2016 16:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -613,7 +613,7 @@ ps-converted-to.pdf figure_files/LEU_ILE_HIS.eps>
 (epstopdf)             \includegraphics on input line 5.
 Package epstopdf Info: Output file is already uptodate.
 
-<figure_files/LEU_ILE_HIS-eps-converted-to.pdf, id=454, 431.6125pt x 152.57pt>
+<figure_files/LEU_ILE_HIS-eps-converted-to.pdf, id=461, 431.6125pt x 152.57pt>
 File: figure_files/LEU_ILE_HIS-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figure_files/LEU_ILE_HIS-eps-converted-to.pdf>
@@ -632,7 +632,7 @@ re-eps-converted-to.pdf figure_files/contour_compare.eps>
 (epstopdf)             \includegraphics on input line 14.
 Package epstopdf Info: Output file is already uptodate.
 
-<figure_files/contour_compare-eps-converted-to.pdf, id=455, 433.62pt x 173.6487
+<figure_files/contour_compare-eps-converted-to.pdf, id=462, 433.62pt x 173.6487
 4pt>
 File: figure_files/contour_compare-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -651,7 +651,7 @@ nverted-to.pdf figure_files/MetPPP.eps>
 (epstopdf)             \includegraphics on input line 23.
 Package epstopdf Info: Output file is already uptodate.
 
-<figure_files/MetPPP-eps-converted-to.pdf, id=456, 1006.76125pt x 1009.7725pt>
+<figure_files/MetPPP-eps-converted-to.pdf, id=463, 1006.76125pt x 1009.7725pt>
 File: figure_files/MetPPP-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figure_files/MetPPP-eps-converted-to.pdf>
@@ -674,7 +674,7 @@ eps-converted-to.pdf figure_files/Glu_pm20_mp0.eps>
 (epstopdf)             \includegraphics on input line 32.
 Package epstopdf Info: Output file is already uptodate.
 
-<figure_files/Glu_pm20_mp0-eps-converted-to.pdf, id=457, 433.62pt x 243.91125pt
+<figure_files/Glu_pm20_mp0-eps-converted-to.pdf, id=464, 433.62pt x 243.91125pt
 >
 File: figure_files/Glu_pm20_mp0-eps-converted-to.pdf Graphic file (type pdf)
  <use figure_files/Glu_pm20_mp0-eps-converted-to.pdf>
@@ -695,7 +695,7 @@ Package epstopdf Info: Source file: <figure_files/IlePP.eps>
 verted-to.pdf figure_files/IlePP.eps>
 (epstopdf)             \includegraphics on input line 41.
 Package epstopdf Info: Output file is already uptodate.
-<figure_files/IlePP-eps-converted-to.pdf, id=458, 557.08125pt x 401.5pt>
+<figure_files/IlePP-eps-converted-to.pdf, id=465, 557.08125pt x 401.5pt>
 File: figure_files/IlePP-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figure_files/IlePP-eps-converted-to.pdf>
@@ -716,7 +716,7 @@ Package epstopdf Info: Source file: <figure_files/Metmpm.eps>
 nverted-to.pdf figure_files/Metmpm.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
-<figure_files/Metmpm-eps-converted-to.pdf, id=459, 390.45876pt x 197.73875pt>
+<figure_files/Metmpm-eps-converted-to.pdf, id=466, 390.45876pt x 197.73875pt>
 File: figure_files/Metmpm-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figure_files/Metmpm-eps-converted-to.pdf>
@@ -739,7 +739,7 @@ rs-eps-converted-to.pdf figure_files/AspAsn_contours.eps>
 (epstopdf)             \includegraphics on input line 59.
 Package epstopdf Info: Output file is already uptodate.
 
-<figure_files/AspAsn_contours-eps-converted-to.pdf, id=460, 428.60126pt x 240.9
+<figure_files/AspAsn_contours-eps-converted-to.pdf, id=467, 428.60126pt x 240.9
 pt>
 File: figure_files/AspAsn_contours-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -763,7 +763,7 @@ eps-converted-to.pdf figure_files/ASN_outliers.eps>
 (epstopdf)             \includegraphics on input line 69.
 Package epstopdf Info: Output file is already uptodate.
 
-<figure_files/ASN_outliers-eps-converted-to.pdf, id=461, 542.025pt x 524.96124p
+<figure_files/ASN_outliers-eps-converted-to.pdf, id=468, 542.025pt x 524.96124p
 t>
 File: figure_files/ASN_outliers-eps-converted-to.pdf Graphic file (type pdf)
  <use figure_files/ASN_outliers-eps-converted-to.pdf>
@@ -795,13 +795,13 @@ Package rerunfilecheck Info: File `HintzeManuscript.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 85.
  ) 
 Here is how much of TeX's memory you used:
- 8759 strings out of 493117
- 131397 string characters out of 6135433
+ 8765 strings out of 493117
+ 131487 string characters out of 6135433
  229594 words of memory out of 5000000
- 11927 multiletter control sequences out of 15000+600000
- 11897 words of font info for 43 fonts, out of 8000000 for 9000
+ 11931 multiletter control sequences out of 15000+600000
+ 12124 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,10n,38p,2413b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,10n,38p,2413b,568s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -811,15 +811,16 @@ sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
 /local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
 ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
 al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
-/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
-live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
-ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texliv
-e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on HintzeManuscript.pdf (35 pages, 22847791 bytes).
+/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
+ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
+e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
+2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2
+014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on HintzeManuscript.pdf (35 pages, 22855851 bytes).
 PDF statistics:
- 649 PDF objects out of 1000 (max. 8388607)
- 529 compressed objects within 6 object streams
- 124 named destinations out of 1000 (max. 500000)
+ 659 PDF objects out of 1000 (max. 8388607)
+ 538 compressed objects within 6 object streams
+ 126 named destinations out of 1000 (max. 500000)
  249 words of extra memory for PDF output out of 10000 (max. 10000000)
 

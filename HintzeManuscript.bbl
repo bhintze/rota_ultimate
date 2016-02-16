@@ -6,6 +6,12 @@ Simon~C Lovell, J~Michael Word, Jane~S Richardson, and David~C Richardson.
 \newblock {\em Proteins: Structure, Function, and Genetics}, 40(3):389--408,
   2000.
 
+\bibitem{Davis2004}
+I.~W. Davis, L.~W. Murray, J.~S. Richardson, and D.~C. Richardson.
+\newblock {MOLPROBITY}: structure validation and all-atom contact analysis for
+  nucleic acids and their complexes.
+\newblock {\em Nucleic Acids Research}, 32(Web Server):W615--W619, jul 2004.
+
 \bibitem{Eyring1932}
 Henry Eyring.
 \newblock Steric hindrance and collision diameters.

@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: HintzeManuscript.aux
 The style file: unsrt.bst
 Database file #1: HintzeManuscript.bib
-You've used 43 entries,
+You've used 44 entries,
             1791 wiz_defined-function locations,
-            772 strings with 13545 characters,
-and the built_in function-call counts, 12041 in all, are:
-= -- 1027
-> -- 715
+            779 strings with 13757 characters,
+and the built_in function-call counts, 12327 in all, are:
+= -- 1053
+> -- 729
 < -- 2
-+ -- 254
-- -- 211
-* -- 1132
-:= -- 1978
-add.period$ -- 131
-call.type$ -- 43
-change.case$ -- 40
++ -- 259
+- -- 215
+* -- 1160
+:= -- 2023
+add.period$ -- 134
+call.type$ -- 44
+change.case$ -- 41
 chr.to.int$ -- 0
-cite$ -- 43
-duplicate$ -- 409
-empty$ -- 1035
-format.name$ -- 211
-if$ -- 2515
+cite$ -- 44
+duplicate$ -- 418
+empty$ -- 1061
+format.name$ -- 215
+if$ -- 2575
 int.to.chr$ -- 0
-int.to.str$ -- 43
-missing$ -- 42
-newline$ -- 218
-num.names$ -- 45
-pop$ -- 56
+int.to.str$ -- 44
+missing$ -- 43
+newline$ -- 223
+num.names$ -- 46
+pop$ -- 57
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 157
+skip$ -- 160
 stack$ -- 0
-substring$ -- 1023
-swap$ -- 61
+substring$ -- 1054
+swap$ -- 62
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 123
-width$ -- 45
-write$ -- 479
+while$ -- 126
+width$ -- 46
+write$ -- 490
