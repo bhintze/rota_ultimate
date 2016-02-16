@@ -1,0 +1,12 @@
+The following details concerns brought up by the reviewers and our response.
+
+- Could you devise a figure or table that more directly or comprehensively compares the older (penultimate) rotamer library to the new (ultimate) you describe here
+
+?
+
+- In intro you say: “The combined new protocol retains a million residues of data, while cleaning up noise in the multi-dimensional χ distributions. It enables clean characterization of conformational clusters nearly 1000-fold less frequent than the most common ones.” … ‘Noise’ and ‘Clean’ are quite imprecise in this context. Noise in what estimate? Compared to what?
+
+    These comments actually critique sentences in the abstract (not the intro), where there is little room for more detail.  (That detail is of course provided later in the paper, on each of these points.)  To address what are evidently possible misunderstandings here in the abstract, we have added 4 words.  We hope this will make it harder for a reader to miss that the noise is in the data, the clusters are what is cleaner, and the subject is validation not modeling.  We believe it is already clear that the comparisons are with our earlier rotamers.
+    The sentences now read as:
+"The combined new protocol retains a million residues of data, while cleaning up false-positive noise in the multi-Chi datapoint distributions."
+"… we believe the future of conformational validation should integrate sidechain and backbone criteria." 
