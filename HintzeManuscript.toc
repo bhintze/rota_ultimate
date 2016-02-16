@@ -1,24 +1,24 @@
 \contentsline {section}{\numberline {1}Abstract}{3}{section.1}
 \contentsline {section}{\numberline {2}Introduction}{4}{section.2}
-\contentsline {section}{\numberline {3}Methods}{6}{section.3}
-\contentsline {subsection}{\numberline {3.1}Chain-level Dataset Filters}{6}{subsection.3.1}
+\contentsline {section}{\numberline {3}Methods}{7}{section.3}
+\contentsline {subsection}{\numberline {3.1}Chain-level Dataset Filters}{7}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Residue-level Dataset Filters}{8}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Determination of Distributions, Scores, and Contours}{9}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.3}Determination of Distributions, Scores, and Contours}{10}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}$\chi $ and Covalent Bond Angle Statistics}{11}{subsection.3.4}
 \contentsline {subsection}{\numberline {3.5}Rotamer Assignment and Score}{12}{subsection.3.5}
-\contentsline {section}{\numberline {4}Results}{12}{section.4}
-\contentsline {subsection}{\numberline {4.1}Residue Filter Effects}{13}{subsection.4.1}
+\contentsline {section}{\numberline {4}Results}{13}{section.4}
+\contentsline {subsection}{\numberline {4.1}Residue Filter Effects}{14}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Rotamer Evaluation}{14}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Dihedral and Bond Angle Deviations}{15}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Interesting Rotamer Anecdotes}{16}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.3}Dihedral and Bond Angle Deviations}{16}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Interesting Rotamer Anecdotes}{17}{subsection.4.4}
 \contentsline {subsubsection}{\numberline {4.4.1}Glutamate \textbf {pm20} \& \textbf {mp0}}{17}{subsubsection.4.4.1}
-\contentsline {subsubsection}{\numberline {4.4.2}Isoleucine \textbf {pp}}{17}{subsubsection.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.2}Isoleucine \textbf {pp}}{18}{subsubsection.4.4.2}
 \contentsline {subsubsection}{\numberline {4.4.3}Methionine \textbf {mpm}}{18}{subsubsection.4.4.3}
 \contentsline {subsection}{\numberline {4.5}Conformations Between Tetrahedral and Planar Atoms}{19}{subsection.4.5}
 \contentsline {section}{\numberline {5}Discussion}{20}{section.5}
 \contentsline {subsection}{\numberline {5.1}In what sense is this ultimate?}{20}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}Use of the Top8000 rotamer distributions in model building}{21}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}I have a rotamer outlier; is it wrong?}{21}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.3}I have a rotamer outlier; is it wrong?}{22}{subsection.5.3}
 \contentsline {section}{\numberline {6}References}{24}{section.6}
 \contentsline {section}{\numberline {7}Figure Legends}{28}{section.7}
 \contentsline {section}{\numberline {8}Tables}{29}{section.8}

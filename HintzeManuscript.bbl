@@ -45,6 +45,14 @@ Jane~S Richardson, Daniel~A Keedy, and David~C Richardson.
   Press-WSPC publication, pages 46--61. World Scientific Publishing Company
   Incorporated, 2013.
 
+\bibitem{Arendall2005}
+W.~Bryan Arendall, Wolfram Tempel, Jane~S. Richardson, Weihong Zhou, Shuren
+  Wang, Ian~W. Davis, Zhi-Jie Liu, John~P. Rose, W.~Michael Carson, Ming Luo,
+  David~C. Richardson, and Bi-Cheng Wang.
+\newblock A test of enhancing model accuracy in high-throughput
+  crystallography.
+\newblock {\em J Struct Funct Genomics}, 6(1):1--11, mar 2005.
+
 \bibitem{Emsley:ba5144}
 P.~Emsley, B.~Lohkamp, W.~G. Scott, and K.~Cowtan.
 \newblock {Features and development of {\it Coot}}.
@@ -68,14 +76,6 @@ Martyn~D. Winn, Charles~C. Ballard, Kevin~D. Cowtan, Eleanor~J. Dodson, Paul
   and Keith~S. Wilson.
 \newblock Overview of the {CCP} 4 suite and current developments.
 \newblock {\em Acta Crystallogr D Biol Cryst}, 67(4):235--242, mar 2011.
-
-\bibitem{Arendall2005}
-W.~Bryan Arendall, Wolfram Tempel, Jane~S. Richardson, Weihong Zhou, Shuren
-  Wang, Ian~W. Davis, Zhi-Jie Liu, John~P. Rose, W.~Michael Carson, Ming Luo,
-  David~C. Richardson, and Bi-Cheng Wang.
-\newblock A test of enhancing model accuracy in high-throughput
-  crystallography.
-\newblock {\em J Struct Funct Genomics}, 6(1):1--11, mar 2005.
 
 \bibitem{Joosten2011}
 R.~P. Joosten, K.~Joosten, S.~X. Cohen, G.~Vriend, and A.~Perrakis.
@@ -105,6 +105,11 @@ R.~A. Laskowski, M.~W. MacArthur, D.~S. Moss, and J.~M. Thornton.
   protein structures}.
 \newblock {\em Journal of Applied Crystallography}, 26(2):283--291, Apr 1993.
 
+\bibitem{Hooft1996}
+R~W Hooft, G~Vriend, C~Sander, and E~E Abola.
+\newblock {Errors in protein structures.}
+\newblock {\em Nature}, 381(6580):272, May 1996.
+
 \bibitem{Chen:2010kx}
 Vincent~B. Chen, W.~Bryan Arendall, Jeffrey~J. Headd, Daniel~A. Keedy,
   Robert~M. Immormino, Gary~J. Kapral, Laura~W. Murray, Jane~S. Richardson, and
@@ -112,11 +117,6 @@ Vincent~B. Chen, W.~Bryan Arendall, Jeffrey~J. Headd, Daniel~A. Keedy,
 \newblock {MolProbity} : all-atom structure validation for macromolecular
   crystallography.
 \newblock {\em Acta Cryst Sect D}, 66(1):12--21, Dec 2009.
-
-\bibitem{Hooft1996}
-R~W Hooft, G~Vriend, C~Sander, and E~E Abola.
-\newblock {Errors in protein structures.}
-\newblock {\em Nature}, 381(6580):272, May 1996.
 
 \bibitem{Tuffery1991}
 P.~Tuffery, C.~Etchebest, S.~Hazout, and R.~Lavery.
