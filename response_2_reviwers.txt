@@ -1,5 +1,6 @@
 The following details concerns brought up by the reviewers and our response.
 
+Reviewer 1:
 - Could you devise a figure or table that more directly or comprehensively compares the older (penultimate) rotamer library to the new (ultimate) you describe here
 
 ?
@@ -10,3 +11,60 @@ The following details concerns brought up by the reviewers and our response.
     The sentences now read as:
 "The combined new protocol retains a million residues of data, while cleaning up false-positive noise in the multi-Chi datapoint distributions."
 "… we believe the future of conformational validation should integrate sidechain and backbone criteria." 
+
+
+- In the intro you state:  “we believe the future of conformational validation should integrate sidechain and backbone. “   … Not sure what you are suggesting, as this sentence lacks sufficient detail. What part of how side chains and backbones are modeled need be integrated?
+
+?
+
+
+- On p. 5. You say “Design libraries and validation libraries focus on two distinct areas of the distributions; while design and prediction are concerned with statistics inside the low-energy wells, validation (and experimental model-buildi
+ng, for the most part) is concerned with avoiding the unacceptable outliers beyond the edges of those wells. “ … I don’t
+ think things are so clearly separated, and also most readers will be confused by this.  Can you rephrase this so that it puts what you are saying into an operational or a practical context?
+
+?
+
+
+- Should “chain-level” be expanded in the subheading to the section “Chain-level filters” to “Main-chain” or “backbone conformation”  or “overall quality filters” ?
+
+?
+
+- The following sentence on page 7 made no real sense “This entire set of datasets is therefore nicknamed the ”Top8000” of structural biology’s upper class. “
+
+?
+
+- Section 5.1 should be a single well organized paragraph, not a collection of 5 single sentence paragraphs.  I’m also not completely sure this section (and the designation of ultimate) is completely necessary. It is quite clear you have made a contribution, it is perhaps less clear that we can be absolutely sure we will not want to iterate rotamer library development one or more times after this.
+
+?
+
+
+
+Reviewer 2:
+
+- Introduction: Please mention the gauche+/- nomenclature
+
+?
+
+- References to side chain building could include the PDB_REDO tool "Side_Aide" and the Lego_Side_Chain options from O.
+
+The following citation to SideAide was added in the introduction where talking about where rotamer libraries are used (brackets enclosing this citation are in red):
+
+R. P. Joosten, K. Joosten, S. X. Cohen, G. Vriend, and A. Perrakis. Automatic rebuild- ing and optimization of crystallographic structures in the protein data bank. Bioinfor- matics, 27(24):3392–3398, oct 2011.
+
+- A reference to RSCC is missing (page 6)
+
+?
+
+- Page 9 "worst B factor <40" , please clarify that this corresponds to the total isotropic B factor.
+
+?
+
+- Page 10, top: Please reference KDE methods
+
+The following citation was added (brackets enclosing this citation are in red):
+
+Leo Breiman, William Meisel, and Edward Purcell. Variable kernel estimates of multi- variate densities. Technometrics, 19(2):135–144, may 1977.
+
+- Figure 2. Please add supplemental figure for Phe and Tyr, specifically; they were suffering in older versions.
+
+?
