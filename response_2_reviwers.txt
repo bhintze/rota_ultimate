@@ -1,16 +1,17 @@
 The following details concerns brought up by the reviewers and our response.
 
 Reviewer 1:
-- Could you devise a figure or table that more directly or comprehensively compares the older (penultimate) rotamer library to the new (ultimate) you describe here
+• Could you devise a figure or table that more directly or comprehensively compares the older (penultimate) rotamer library to the new (ultimate) you describe here
 
-In the supplement we added a table that compares the outlier count in the unfiltered dataset when evaluated using the Top500 vs. the Top8000 contours (see table 2 in supplement). We have also added a figure comparing the contour of the remaining 2 dimensional residue types not already in figure 2 (see figure 1 in the supplement). Along with this we added references to Figure S1 in 4.2 and the caption of Figure 2 (See red text).
+-->  In the supplement we added a table that compares the outlier count in the unfiltered dataset when evaluated using the Top500 vs. the Top8000 contours (see table 2 in supplement). We have also added a figure comparing the contour of the remaining 2 dimensional residue types not already in figure 2 (see figure 1 in the supplement). Along with this we added references to Figure S1 in 4.2 and the caption of Figure 2 (See red text).
 
 
 • In intro you say: “The combined new protocol retains a million residues of data, while cleaning up noise in the multi-dimensional χ distributions. It enables clean characterization of conformational clusters nearly 1000-fold less frequent than the most common ones.” … ‘Noise’ and ‘Clean’ are quite imprecise in this context. Noise in what estimate? Compared to what?
 
+
 • In the intro you state:  “we believe the future of conformational validation should integrate sidechain and backbone. “   … Not sure what you are suggesting, as this sentence lacks sufficient detail. What part of how side chains and backbones are modeled need be integrated?
 
-    These comments actually critique sentences in the abstract (not the intro), where there is little room for more detail.  (That detail is of course provided later in the paper, on each of these points.)  To address what are evidently possible misunderstandings here in the abstract, we have added 4 words.  We hope this will make it harder for a reader to miss that the noise is in the data, the clusters are what is cleaner, and the subject is validation not modeling.  We believe it is already clear that the comparisons are with our earlier rotamers.
+-->  The above two comments actually critique sentences in the abstract (not the intro), where there is little room for more detail.  (That detail is of course provided later in the paper, on each of these points.)  To address what are evidently possible misunderstandings here in the abstract, we have added 4 words.  We hope this will make it harder for a reader to miss that the noise is in the data, the clusters are what is cleaner, and the subject is validation not modeling.  We believe it is already clear that the comparisons are with our earlier rotamers.
     The sentences now read as:
 "The combined new protocol retains a million residues of data, while cleaning up false-positive noise in the multi-Chi datapoint distributions."
 "… we believe the future of conformational validation should integrate sidechain and backbone criteria." 
@@ -20,18 +21,22 @@ In the supplement we added a table that compares the outlier count in the unfilt
 ng, for the most part) is concerned with avoiding the unacceptable outliers beyond the edges of those wells. “ … I don’t
  think things are so clearly separated, and also most readers will be confused by this.  Can you rephrase this so that it puts what you are saying into an operational or a practical context?
 
--->    Our practical advice is that people should use the Dunbrack tools for prediction and use MolProbity for validation -- we implied that, but didn't feel comfortable with saying it explicitly.  We've now added clarifying detail and references.  The distinction really is an important one for those two extremes, but is not clean for experimental model-building, which we've now deleted.
+-->  Our practical advice is that people should use the Dunbrack tools for prediction and use MolProbity for validation -- we implied that, but didn't feel comfortable with saying it explicitly.  We've now added clarifying detail and references, to help with understanding the point.  The distinction really is an important one for those two extremes, but is not clean for experimental model-building, which we've now deleted. It now reads as follows:
+
+"Design libraries and validation libraries focus on two distinct areas of the reference data distributions. While design and prediction are primarily concerned with statistics and cluster shape inside the low-energy wells [Dunbrack 1997], validation is primarily concerned with robustly identifying the outliers beyond the edges of those wells. Such outliers are usually wrong but sometimes valid and interesting, providing a short list which are all worth examining [Richardson 2013 COSB validation]. “
 
 
-- Should “chain-level” be expanded in the subheading to the section “Chain-level filters” to “Main-chain” or “backbone conformation”  or “overall quality filters” ?
+• Should “chain-level” be expanded in the subheading to the section “Chain-level filters” to “Main-chain” or “backbone conformation”  or “overall quality filters” ?
 
-?
+-->  The subheading has been changed to "Overall Chain-Level Filters", and several small changes have been made in the preceding section to set readers up to realize that "chain" here means a protein chain, not a polypeptide backbone, and that it is a minor shift from "file-level" filters and contrasts with residue-level filters. 
 
-- The following sentence on page 7 made no real sense “This entire set of datasets is therefore nicknamed the ”Top8000” of structural biology’s upper class. “
 
-?
+• The following sentence on page 7 made no real sense “This entire set of datasets is therefore nicknamed the ”Top8000” of structural biology’s upper class. “
 
-- Section 5.1 should be a single well organized paragraph, not a collection of 5 single sentence paragraphs.  I’m also not completely sure this section (and the designation of ultimate) is completely necessary. It is quite clear you have made a contribution, it is perhaps less clear that we can be absolutely sure we will not want to iterate rotamer library development one or more times after this.
+-->  We have changed this sentence to read: "We therefore call these datasets the Top8000 as successor to the Top500, which also prompts an analogy that structural biology's upper class has nearly reached the numbers of the "Upper Ten Thousand" or "The Quality" of 19th Century British or American high society."  
+
+
+* Section 5.1 should be a single well organized paragraph, not a collection of 5 single sentence paragraphs.  I’m also not completely sure this section (and the designation of ultimate) is completely necessary. It is quite clear you have made a contribution, it is perhaps less clear that we can be absolutely sure we will not want to iterate rotamer library development one or more times after this.
 
 ?
 
@@ -39,36 +44,42 @@ ng, for the most part) is concerned with avoiding the unacceptable outliers beyo
 
 Reviewer 2:
 
-- Introduction: Please mention the gauche+/- nomenclature
+• Introduction: Please mention the gauche+/- nomenclature
 
-?
+-->  We have done this with a very short addition of "... -60°), named as in [1]." to the main text and then, to keep the Intro readable, more explanation is in a footnote:
 
-- References to side chain building could include the PDB_REDO tool "Side_Aide" and the Lego_Side_Chain options from O.
-
-The following citation to SideAide was added in the introduction where talking about where rotamer libraries are used (brackets enclosing this citation are in red):
-
-R. P. Joosten, K. Joosten, S. X. Cohen, G. Vriend, and A. Perrakis. Automatic rebuild- ing and optimization of crystallographic structures in the protein data bank. Bioinfor- matics, 27(24):3392–3398, oct 2011.
+"The p, t, m nomenclature was adopted in [1] and in MolProbity [Davis 2004], to give a single letter for use in rotamer strings, and because in 2000 the more common g+, t, g- terminology was still being used in inconsistent ways for opposite conformations (see discussion in [1]."
 
 
-- A reference to RSCC is missing (page 6)
+• References to side chain building could include the PDB_REDO tool "Side_Aide" and the Lego_Side_Chain options from O.
 
-    There seems to be no definitive reference that claims development of the RSCC, as we concluded after an extensive search of the literature and the relevant web sites, and consulting the other Phenix PIs.  Jones et al (2004) Acta Cryst A47:110-9 introduces the real-space residual (RSR), but only mentions possible use of a correlation function in passing.  The Electron Density Server presents both RSR and RSCC values for each structure, and in Kleywegt et al (2004) Acta Cryst D60:2240-9 they describe the calculation as being done in MAPMAN (the paper for which does not mention RSCC) and give more additional details than anywhere else,  but not quite enough to reproduce it.  That's why we gave the equation and parameters in our paper.  If you know of the right reference, please let us know.
+-->  The following citation to SideAide was added in the introduction when talking about where rotamer libraries are used (brackets enclosing this citation are in red):
+
+R. P. Joosten, K. Joosten, S. X. Cohen, G. Vriend, and A. Perrakis. Automatic rebuilding and optimization of crystallographic structures in the protein data bank. Bioinformatics, 27(24):3392–3398, oct 2011.
+
+    We did not add O to an already long list, since we feel that COOT is more currently relevant.
+
+
+• A reference to RSCC is missing (page 6)
+
+-->  There seems to be no definitive reference that claims development of the RSCC, as we concluded after an extensive search of the literature and the relevant web sites, and consulting the other Phenix PIs.  Jones et al (2004) Acta Cryst A47:110-9 introduces the real-space residual (RSR), but only mentions possible use of a correlation function in passing.  The Electron Density Server presents both RSR and RSCC values for each structure, and in Kleywegt et al (2004) Acta Cryst D60:2240-9 they describe the calculation as being done in MAPMAN (the paper for which does not mention RSCC) and give more additional details than anywhere else, but not quite enough to reproduce it.  That's why we gave the equation and parameters in our paper.  If you know of a better reference, please let us know.
     Here, we have changed the detailed description in 3.2 methods (p. 8) to include:
 "… a local real-space correlation coefficient (RSCC) metric [Kleywegt 2004]" (brackets enclosing this citation are in red)
 "… how the RSCC was calculated, as implemented standardly in Phenix." (see red text)
 
 
+• Page 9 "worst B factor <40" , please clarify that this corresponds to the total isotropic B factor.
 
-- Page 9 "worst B factor <40" , please clarify that this corresponds to the total isotropic B factor.
+-->  It's not the total B in the sense of a per-residue average.  We've changed it to say "worst per-atom isotropic B factor < 40,"
 
-?
 
-- Page 10, top: Please reference KDE methods
+• Page 10, top: Please reference KDE methods
 
-The following citation was added (brackets enclosing this citation are in red):
+-->  The following citation was added (brackets enclosing this citation are in red):
 
 Leo Breiman, William Meisel, and Edward Purcell. Variable kernel estimates of multi- variate densities. Technometrics, 19(2):135–144, may 1977.
 
-- Figure 2. Please add supplemental figure for Phe and Tyr, specifically; they were suffering in older versions.
 
-?
+• Figure 2. Please add supplemental figure for Phe and Tyr, specifically; they were suffering in older versions.
+
+-->  See the new Figure S1, which includes Phe and Tyr. (We'd actually be quite curious to know in what way they were formerly suffering, and hope they are better now.)
