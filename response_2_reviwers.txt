@@ -3,7 +3,7 @@ The following details concerns brought up by the reviewers and our response.
 Reviewer 1:
 • Could you devise a figure or table that more directly or comprehensively compares the older (penultimate) rotamer library to the new (ultimate) you describe here
 
--->  In the supplement we added a table that compares the outlier count in the unfiltered dataset when evaluated using the Top500 vs. the Top8000 contours (see table 2 in supplement). We have also added a figure comparing the contour of the remaining 2 dimensional residue types not already in figure 2 (see figure 1 in the supplement). Along with this we added references to Figure S1 in 4.2 and the caption of Figure 2 (See red text).
+-->  In the supplement we added a table that compares the outlier count in the unfiltered dataset when evaluated using the Top500 vs. the Top8000 contours (see table 2 in supplement) and make a reference to that table in Section 4.2. We have also added a figure comparing the contour of the remaining 2 dimensional residue types not already in figure 2 (see Figure S1 in the supplement). Along with this we added references to Figure S1 in 4.2 and the caption of Figure 2 (See red text).
 
 
 • In intro you say: “The combined new protocol retains a million residues of data, while cleaning up noise in the multi-dimensional χ distributions. It enables clean characterization of conformational clusters nearly 1000-fold less frequent than the most common ones.” … ‘Noise’ and ‘Clean’ are quite imprecise in this context. Noise in what estimate? Compared to what?
@@ -17,18 +17,16 @@ Reviewer 1:
 "… we believe the future of conformational validation should integrate sidechain and backbone criteria." 
 
 
-• On p. 5. You say “Design libraries and validation libraries focus on two distinct areas of the distributions; while design and prediction are concerned with statistics inside the low-energy wells, validation (and experimental model-buildi
-ng, for the most part) is concerned with avoiding the unacceptable outliers beyond the edges of those wells. “ … I don’t
- think things are so clearly separated, and also most readers will be confused by this.  Can you rephrase this so that it puts what you are saying into an operational or a practical context?
+• On p. 5. You say “Design libraries and validation libraries focus on two distinct areas of the distributions; while design and prediction are concerned with statistics inside the low-energy wells, validation (and experimental model-building, for the most part) is concerned with avoiding the unacceptable outliers beyond the edges of those wells. “ … I don’t think things are so clearly separated, and also most readers will be confused by this.  Can you rephrase this so that it puts what you are saying into an operational or a practical context?
 
 -->  Our practical advice is that people should use the Dunbrack tools for prediction and use MolProbity for validation -- we implied that, but didn't feel comfortable with saying it explicitly.  We've now added clarifying detail and references, to help with understanding the point.  The distinction really is an important one for those two extremes, but is not clean for experimental model-building, which we've now deleted. It now reads as follows:
 
-"Design libraries and validation libraries focus on two distinct areas of the reference data distributions. While design and prediction are primarily concerned with statistics and cluster shape inside the low-energy wells [Dunbrack 1997], validation is primarily concerned with robustly identifying the outliers beyond the edges of those wells. Such outliers are usually wrong but sometimes valid and interesting, providing a short list which are all worth examining [Richardson 2013 COSB validation]. “
+"Design libraries and validation libraries focus on two distinct areas of the reference data distributions. While design and prediction are primarily concerned with statistics and cluster shape inside the low-energy wells [Dunbrack 1997], validation is primarily concerned with robustly identifying the outliers beyond the edges of those wells. Such outliers are usually wrong but sometimes valid and interesting, so are always worth examining [Richardson 2013]. “
 
 
 • Should “chain-level” be expanded in the subheading to the section “Chain-level filters” to “Main-chain” or “backbone conformation”  or “overall quality filters” ?
 
--->  The subheading has been changed to "Overall Chain-Level Filters", and several small changes have been made in the preceding section to set readers up to realize that "chain" here means a protein chain, not a polypeptide backbone, and that it is a minor shift from "file-level" filters and contrasts with residue-level filters. 
+-->  The subheading has been changed to "Overall Chain-Level Filters", and several small changes have been made in the preceding section to set readers up to realize that "chain" here means a PDB chain, not a polypeptide backbone, and that it is a minor shift from "file-level" filters and contrasts with residue-level filters. 
 
 
 • The following sentence on page 7 made no real sense “This entire set of datasets is therefore nicknamed the ”Top8000” of structural biology’s upper class [Thom 1875]. “
@@ -82,4 +80,4 @@ Leo Breiman, William Meisel, and Edward Purcell. Variable kernel estimates of mu
 
 • Figure 2. Please add supplemental figure for Phe and Tyr, specifically; they were suffering in older versions.
 
--->  See the new Figure S1, which includes Phe and Tyr. (We'd actually be quite curious to know in what way they were formerly suffering, and hope they are better now.)
+-->  See the new Figure S1, which includes Phe and Tyr. (We'd actually be quite curious to know in what way they were formerly ‘suffering’, and hope they are better now.)
