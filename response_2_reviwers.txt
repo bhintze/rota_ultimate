@@ -31,7 +31,7 @@ ng, for the most part) is concerned with avoiding the unacceptable outliers beyo
 -->  The subheading has been changed to "Overall Chain-Level Filters", and several small changes have been made in the preceding section to set readers up to realize that "chain" here means a protein chain, not a polypeptide backbone, and that it is a minor shift from "file-level" filters and contrasts with residue-level filters. 
 
 
-• The following sentence on page 7 made no real sense “This entire set of datasets is therefore nicknamed the ”Top8000” of structural biology’s upper class. “
+• The following sentence on page 7 made no real sense “This entire set of datasets is therefore nicknamed the ”Top8000” of structural biology’s upper class [Thom 1875]. “
 
 -->  We have changed this sentence to read: "We therefore call these datasets the Top8000 as successor to the Top500, which also prompts an analogy that structural biology's upper class has nearly reached the numbers of the "Upper Ten Thousand" or "The Quality" of 19th Century British or American high society."  
 
