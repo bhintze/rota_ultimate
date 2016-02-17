@@ -33,18 +33,17 @@
 \newcolumntype{b}{>{\columncolor{white}}c}
 \renewcommand{\thefigure}{S\arabic{figure}}
 \renewcommand{\thetable}{S\arabic{table}}
-
+\renewcommand{\thesection}{S\arabic{section}}
 \begin{document}
 
 \title{Rough Draft of Supplemental Material}
 \author{Bradley Hintze}
-\date{January 2015}
+\date{February 2015}
 \maketitle
-\tableofcontents
 
+\tableofcontents
 \newpage
-\input{residuecounts}
-\newpage
+
 \section{Top500 vs. Top8000 Reference Contours}
 \begin{figure}[h]
   \centering
@@ -56,6 +55,8 @@
       conformations.}
     \label{fig:outcounts}
 \end{figure}
+\newpage
+\input{residuecounts}
 \newpage
 \input{out_8000_500}
 \newpage
