@@ -31,9 +31,8 @@ Reviewer 1:
 
 • The following sentence on page 7 made no real sense “This entire set of datasets is therefore nicknamed the ”Top8000” of structural biology’s upper class.“
 
--->  To make the point clear, we have changed this sentence to read: "We therefore call these datasets the Top8000, as successors to the Top500, now with about 8000 protein chains. This suggests an analogy that the high-resolution, high-quality "upper class" of structural biology has nearly reached the numbers of the "Upper Ten Thousand" or the "Quality" of 19th Century British or American high society [Bisset 1852, Thom 1875]. Quality is less artificial for the Top8000 than for the Upper10000, although they also are not always the ones that accomplish most for the general good."  
-
-     We consider this as a small reward and diversion for people who actually read the methods section.
+-->  We considered this playful analogy as a small reward and diversion for people who actually read the methods section.  A possible rewrite, to make the point completely explicit, might be: "We therefore call these datasets the Top8000, as successors to the Top500, now with about 8000 protein chains. This suggests an analogy that the high-resolution, high-quality "upper class" of structural biology has nearly reached the numbers of the "Upper Ten Thousand" or the "Quality" of 19th Century British or American high society [Bisset 1852, Thom 1875]."  
+     However, we have decided to use only that first sentence, both because we don't ourselves feel positive about the social distinctions embodied in the concept of an Upper Ten Thousand, and because we have 8K not 10K.
 
 
 * Section 5.1 should be a single well organized paragraph, not a collection of 5 single sentence paragraphs.  I’m also not completely sure this section (and the designation of ultimate) is completely necessary. It is quite clear you have made a contribution, it is perhaps less clear that we can be absolutely sure we will not want to iterate rotamer library development one or more times after this.
