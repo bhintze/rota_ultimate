@@ -20,7 +20,7 @@
 \contentsline {subsection}{\numberline {5.2}Use of the Top8000 rotamer distributions in model building}{21}{subsection.5.2}
 \contentsline {subsection}{\numberline {5.3}I have a rotamer outlier; is it wrong?}{22}{subsection.5.3}
 \contentsline {section}{\numberline {6}References}{24}{section.6}
-\contentsline {section}{\numberline {7}Figure Legends}{28}{section.7}
-\contentsline {section}{\numberline {8}Tables}{29}{section.8}
-\contentsline {section}{\numberline {9}Figures}{31}{section.9}
-\contentsline {section}{\numberline {10}Acknowledgments}{35}{section.10}
+\contentsline {section}{\numberline {7}Figure Legends}{25}{section.7}
+\contentsline {section}{\numberline {8}Tables}{26}{section.8}
+\contentsline {section}{\numberline {9}Figures}{28}{section.9}
+\contentsline {section}{\numberline {10}Acknowledgments}{32}{section.10}

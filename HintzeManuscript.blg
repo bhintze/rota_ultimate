@@ -1,46 +1,84 @@
-This is BibTeX, Version 0.99d (TeX Live 2014)
+This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: HintzeManuscript.aux
 The style file: unsrt.bst
-Database file #1: HintzeManuscript.bib
-You've used 47 entries,
+I found no \bibdata command---while reading file HintzeManuscript.aux
+Warning--I didn't find a database entry for "lovell2000penultimate"
+Warning--I didn't find a database entry for "Davis2004"
+Warning--I didn't find a database entry for "Eyring1932"
+Warning--I didn't find a database entry for "Ponder1987"
+Warning--I didn't find a database entry for "DunbrackJr2002431"
+Warning--I didn't find a database entry for "Berman2000"
+Warning--I didn't find a database entry for "RAMACHANDRAN1963"
+Warning--I didn't find a database entry for "JSR_theplot_2013"
+Warning--I didn't find a database entry for "Arendall2005"
+Warning--I didn't find a database entry for "Emsley:ba5144"
+Warning--I didn't find a database entry for "Adams:2010fk"
+Warning--I didn't find a database entry for "Winn2011"
+Warning--I didn't find a database entry for "Joosten2011"
+Warning--I didn't find a database entry for "Bower1997"
+Warning--I didn't find a database entry for "Kuhlman21112003"
+Warning--I didn't find a database entry for "Gainza:2012"
+Warning--I didn't find a database entry for "Laskowski:gl0276"
+Warning--I didn't find a database entry for "Hooft1996"
+Warning--I didn't find a database entry for "Chen:2010kx"
+Warning--I didn't find a database entry for "Tuffery1991"
+Warning--I didn't find a database entry for "Schrauber1993"
+Warning--I didn't find a database entry for "DeMaeyer1997"
+Warning--I didn't find a database entry for "Gainza2013"
+Warning--I didn't find a database entry for "Dunbrack1997"
+Warning--I didn't find a database entry for "Read2011"
+Warning--I didn't find a database entry for "Richardson2013"
+Warning--I didn't find a database entry for "Lovell:2003uq"
+Warning--I didn't find a database entry for "Word1999"
+Warning--I didn't find a database entry for "Engh1991"
+Warning--I didn't find a database entry for "Shapovalov:2007"
+Warning--I didn't find a database entry for "Word19991735"
+Warning--I didn't find a database entry for "Dabbish:2012"
+Warning--I didn't find a database entry for "Kleywegt:ba5061"
+Warning--I didn't find a database entry for "Breiman1977"
+Warning--I didn't find a database entry for "Thesis:Word"
+Warning--I didn't find a database entry for "Thesis:Davis"
+Warning--I didn't find a database entry for "Kleywegt1996"
+You've used 0 entries,
             1791 wiz_defined-function locations,
-            797 strings with 14439 characters,
-and the built_in function-call counts, 12874 in all, are:
-= -- 1101
-> -- 748
-< -- 2
-+ -- 267
-- -- 220
-* -- 1190
-:= -- 2109
-add.period$ -- 143
-call.type$ -- 47
-change.case$ -- 42
+            517 strings with 4399 characters,
+and the built_in function-call counts, 18 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 2
+:= -- 7
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 47
-duplicate$ -- 447
-empty$ -- 1123
-format.name$ -- 220
-if$ -- 2699
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
 int.to.chr$ -- 0
-int.to.str$ -- 47
-missing$ -- 48
-newline$ -- 238
-num.names$ -- 49
-pop$ -- 72
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 3
+num.names$ -- 0
+pop$ -- 0
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 167
+skip$ -- 1
 stack$ -- 0
-substring$ -- 1079
-swap$ -- 65
-text.length$ -- 2
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 131
-width$ -- 49
-write$ -- 521
+while$ -- 0
+width$ -- 0
+write$ -- 2
+(There was 1 error message)
