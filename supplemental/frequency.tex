@@ -2,11 +2,10 @@
 \section*{Top8000 Filtered Dataset: Rotamer Frequency}
 \label{app:RotaFreq}
 
-The following is a table describing counts of each of the 213 rotamers identified in the Top8000 filtered dataset. n is the count of each rotamer, \% is the percent of the rotamer that occurs in the given residue type (e.g. 17.7\% of CYS are \textbf{p}). Also noted is the \textit{rarity} of each rotamer, defined at two levels -- a singe and double checkmark. The rarity metric is normalized by both the number of residues and the number of rotamer types in a given residue type. If the empirical count for a rotamer is $<$ 8\% or $<$ 1\% of the \textit{expected rotamer count} then the rarity is marked with a single or double checkmark, respectively.
+The following is a table describing counts of each of the 213 rotamers identified in the Top8000 filtered dataset. n is the count of each rotamer, \% is the percent of the rotamer that occurs in the given residue type (e.g. 17.7\% of CYS are \textbf{p}). Also noted is the \textit{rarity} of each rotamer, marked with a checkmark. The rarity metric is normalized by both the number of residues and the number of rotamer types in a given residue type. If the empirical count for a rotamer is $<$ 8\% of the \textit{expected rotamer count} then the rarity is marked with a checkmark.
 
 \setlength{\parindent}{5ex}
-The \textit{expected rotamer count} is the number of residues in a rotamer bin if all residues were distributed equally to all rotamer bins for a given residue type. e.g. as shown below, LEU has 115,053 examples in the filtered dataset and  8 rotamers. Thus LEU has an \textit{expected rotamer count} of 115,053/8 $\approx$ 14,382. LEU \textbf{pp} has 521 examples which is 3.7\% of the \textit{expected rotamer count} thus gets a single checkmark. LEU \textbf{tm} has 143 examples which is 0.99\% of the \textit{expected rotamer count} thus gets a double checkmark. 
-%if SER had 3000 residues in the dataset then the \textit{expected count} for each of the three rotamers would be 1000. Further, if one of these rotamers had an empirical count $<$ 80 or $<$ 10, the \textit{rarity} would be marked with a single or double checkmark respectively.
+The \textit{expected rotamer count} is the number of residues in a rotamer bin if all residues were distributed equally to all rotamer bins for a given residue type. e.g. as shown below, LEU has 115,053 examples in the filtered dataset and  8 rotamers. Thus LEU has an \textit{expected rotamer count} of 115,053/8 $\approx$ 14,382. LEU \textbf{pp} has 521 examples which is 3.7\% of the \textit{expected rotamer count} thus gets a checkmark.
 \\
 }
 
@@ -47,7 +46,7 @@ The \textit{expected rotamer count} is the number of residues in a rotamer bin i
   LEU & pt & 378 & 0.33 & \checkmark\\ \hline
   LEU & tp & 34655 & 30.12 & -\\ \hline
   LEU & tt & 1576 & 1.37 & -\\ \hline
-  LEU & tm & 143 & 0.12 & \checkmark\checkmark\\ \hline
+  LEU & tm & 143 & 0.12 & \checkmark\\ \hline
   LEU & mp & 2711 & 2.36 & -\\ \hline
   LEU & mt & 74252 & 64.54 & -\\ \hline
   LEU & mm & 484 & 0.42 & \checkmark\\ \hline
@@ -64,7 +63,7 @@ The \textit{expected rotamer count} is the number of residues in a rotamer bin i
   \multicolumn{5}{c}{\textbf{ASN : TOTAL N = 53650}} \\ \hline
   ASN & p0 & 7513 & 14.00 & -\\ \hline
   ASN & t0 & 15610 & 29.10 & -\\ \hline
-  ASN & t160 & 61 & 0.11 & \checkmark\checkmark\\ \hline
+  ASN & t160 & 61 & 0.11 & \checkmark\\ \hline
   ASN & m110 & 4003 & 7.46 & -\\ \hline
   ASN & m-40 & 26292 & 49.01 & -\\ \hline
   ASN & OUTLIER & 171 & 0.32 & -\\ \hline
@@ -111,7 +110,7 @@ The \textit{expected rotamer count} is the number of residues in a rotamer bin i
   MET & ptp & 404 & 2.41 & -\\ \hline
   MET & ptt & 260 & 1.55 & -\\ \hline
   MET & ptm & 375 & 2.23 & -\\ \hline
-  MET & pmt & 7 & 0.04 & \checkmark\checkmark\\ \hline
+  MET & pmt & 7 & 0.04 & \checkmark\\ \hline
   MET & pmm & 42 & 0.25 & \checkmark\\ \hline
   MET & tpp & 1138 & 6.78 & -\\ \hline
   MET & tpt & 388 & 2.31 & -\\ \hline
@@ -158,7 +157,7 @@ The \textit{expected rotamer count} is the number of residues in a rotamer bin i
   GLN & OUTLIER & 109 & 0.29 & -\\ \hline
   \multicolumn{5}{c}{\textbf{ARG : TOTAL N = 46380}} \\ \hline
   ARG & ppp80 & 10 & 0.02 & \checkmark\\ \hline
-  ARG & ppp-140 & 4 & 0.01 & \checkmark\checkmark\\ \hline
+  ARG & ppp-140 & 4 & 0.01 & \checkmark\\ \hline
   ARG & ppt170 & 57 & 0.12 & \checkmark\\ \hline
   ARG & ppt90 & 19 & 0.04 & \checkmark\\ \hline
   ARG & ppt-90 & 15 & 0.03 & \checkmark\\ \hline
@@ -170,7 +169,7 @@ The \textit{expected rotamer count} is the number of residues in a rotamer bin i
   ARG & ptt-90 & 726 & 1.57 & -\\ \hline
   ARG & ptm160 & 502 & 1.08 & -\\ \hline
   ARG & ptm-80 & 215 & 0.46 & -\\ \hline
-  ARG & pmt100 & 4 & 0.01 & \checkmark\checkmark\\ \hline
+  ARG & pmt100 & 4 & 0.01 & \checkmark\\ \hline
   ARG & pmt170 & 39 & 0.08 & \checkmark\\ \hline
   ARG & pmt-80 & 27 & 0.06 & \checkmark\\ \hline
   ARG & pmm150 & 12 & 0.03 & \checkmark\\ \hline
@@ -235,7 +234,6 @@ The \textit{expected rotamer count} is the number of residues in a rotamer bin i
   LYS & tptm & 197 & 0.57 & -\\ \hline
   LYS & ttpp & 229 & 0.66 & -\\ \hline
   LYS & ttpt & 883 & 2.54 & -\\ \hline
-  LYS & ttpm & 4 & 0.01 & \checkmark\checkmark\\ \hline
   LYS & tttp & 1233 & 3.54 & -\\ \hline
   LYS & tttt & 5043 & 14.48 & -\\ \hline
   LYS & tttm & 1176 & 3.38 & -\\ \hline
