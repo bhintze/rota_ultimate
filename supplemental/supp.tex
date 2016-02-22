@@ -1,10 +1,7 @@
 
-% Bradley Hintze -- June 2013
 \documentclass{article}
 
-%\usepackage{rough_draft}
 \usepackage{gensymb,wrapfig,booktabs,amssymb}
-\bibliographystyle{unsrt}
 \usepackage[font=small,labelfont=bf]{caption}
 \usepackage{fixltx2e}
 \usepackage{longtable}
@@ -24,7 +21,7 @@
                                 colorlinks, linkcolor=black, citecolor=black,
                  filecolor=black, urlcolor=black]
                                 {hyperref}
-
+\usepackage{authblk}
 
 \definecolor{Gray}{gray}{0.85}
 \definecolor{LightCyan}{rgb}{0.88,1,1}
@@ -36,26 +33,32 @@
 \renewcommand{\thesection}{S\arabic{section}}
 \begin{document}
 
-\title{Rough Draft of Supplemental Material}
-\author{Bradley Hintze}
-\date{February 2015}
+\title{Supplemental Material for MolProbity's Ultimate Rotamer-Library Distributions for Model Validation}
+\author{Bradley J. Hintze}
+\author{Steven M. Lewis}
+\author{Jane S. Richardson}
+\author{David C. Richardson}
+\affil{Department of Biochemistry, Duke University}
+\date{}
 \maketitle
-
-\tableofcontents
+\listoffigures
+\listoftables
 \newpage
 
-\section{Top500 vs. Top8000 Reference Contours}
+\section*{Top500 vs. Top8000 Reference Contours}
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.75\textwidth]{contour_compare_sup}
-  \caption{Areas in orange (from Top500 data) and in blue (from Top8000) fill
+  \caption[Top500 vs Top8000 Contours for Residues with 2 $\chi$s ]
+      {Areas in orange (from Top500 data) and in blue (from Top8000) fill
       the allowed regions for AsN, His, Leu, and Phe/Tyr. Phe and Tyr were done
       together as no significant difference was detected between their distributions.
       The extensive areas in green are where the two systems both declare allowed 
-      conformations.}
+      conformations. See Figure 2 for Asp, Trp, and Ile}
     \label{fig:outcounts}
 \end{figure}
 \newpage
+
 \input{residuecounts}
 \newpage
 \input{out_8000_500}
@@ -64,6 +67,6 @@
 \newpage
 \input{chis_and_angles}
 \newpage
-%\input{pdbchains}
+
 
 \end{document}

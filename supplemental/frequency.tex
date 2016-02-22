@@ -1,13 +1,19 @@
 \newcommand\makeSect{%
-\section{Top8000 Filtered Dataset: Rotamer Frequency}
+\section*{Top8000 Filtered Dataset: Rotamer Frequency}
 \label{app:RotaFreq}
 
-The following is a table describing counts of each of the 213 rotamers identified in the Top8000 filtered dataset. n is the count of each rotamer, \% is the percent of the rotamer that occurs in the given residue type (e.g. 17.7\% of CYS are \textbf{p}). Also noted is the \textit{rarity} of each rotamer, defined at two levels -- a singe and double checkmark. The rarity metric is normalized by both the number of residues and the number of rotamer types in a given residue type. If the empirical count for a rotamer is $<$ 8\% or $<$ 1\% of the \textit{expected rotamer count} then the rarity is marked with a single or double checkmark, respectively. The \textit{expected rotamer count} is the number of residues in a rotamer bin if all residues were distributed equally to all rotamer bins for a given residue type. e.g. if SER had 3000 residues in the dataset then the \textit{expected count} for each of the three rotamers would be 1000. Further, if one of these rotamers had an empirical count $<$ 80 or $<$ 10, the \textit{rarity} would be marked with a single or double checkmark respectively.\\
+The following is a table describing counts of each of the 213 rotamers identified in the Top8000 filtered dataset. n is the count of each rotamer, \% is the percent of the rotamer that occurs in the given residue type (e.g. 17.7\% of CYS are \textbf{p}). Also noted is the \textit{rarity} of each rotamer, defined at two levels -- a singe and double checkmark. The rarity metric is normalized by both the number of residues and the number of rotamer types in a given residue type. If the empirical count for a rotamer is $<$ 8\% or $<$ 1\% of the \textit{expected rotamer count} then the rarity is marked with a single or double checkmark, respectively.
+
+\setlength{\parindent}{5ex}
+The \textit{expected rotamer count} is the number of residues in a rotamer bin if all residues were distributed equally to all rotamer bins for a given residue type. e.g. as shown below, LEU has 115,053 examples in the filtered dataset and  8 rotamers. Thus LEU has an \textit{expected rotamer count} of 115,053/8 $\approx$ 14,382. LEU \textbf{pp} has 521 examples which is 3.7\% of the \textit{expected rotamer count} thus gets a single checkmark. LEU \textbf{tm} has 143 examples which is 0.99\% of the \textit{expected rotamer count} thus gets a double checkmark. 
+%if SER had 3000 residues in the dataset then the \textit{expected count} for each of the three rotamers would be 1000. Further, if one of these rotamers had an empirical count $<$ 80 or $<$ 10, the \textit{rarity} would be marked with a single or double checkmark respectively.
+\\
 }
+
 \twocolumn[\makeSect]
 \begin{footnotesize}
 
-\bottomcaption{Rotamer names, number of examples in the filtered data set, and frequency in its residue type.}
+\bottomcaption[List of Rotamer with Frequencies]{Rotamer names, number of examples in the filtered data set, and frequency in its residue type.}
 \tablehead{residue & rotamer & n & \% & rarity \\ \hline}
 
 \begin{supertabular}{llllc}
