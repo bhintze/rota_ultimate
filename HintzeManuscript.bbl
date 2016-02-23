@@ -8,7 +8,7 @@ Simon~C Lovell, J~Michael Word, Jane~S Richardson, and David~C Richardson.
 
 \bibitem{Davis2004}
 I.~W. Davis, L.~W. Murray, J.~S. Richardson, and D.~C. Richardson.
-\newblock {MOLPROBITY}: structure validation and all-atom contact analysis for
+\newblock {MolProbity}: structure validation and all-atom contact analysis for
   nucleic acids and their complexes.
 \newblock {\em Nucleic Acids Research}, 32(Web Server):W615--W619, jul 2004.
 
@@ -25,7 +25,7 @@ Jay~W. Ponder and Frederic~M. Richards.
 \bibitem{DunbrackJr2002431}
 Roland~L Dunbrack.
 \newblock Rotamer libraries in the 21st century.
-\newblock {\em Current Opinion in Structural Biology}, 12(4):431 -- 440, 2002.
+\newblock {\em Current Opinion in Structural Biology}, 12(4):431--440, 2002.
 
 \bibitem{Berman2000}
 H.~M. Berman.
