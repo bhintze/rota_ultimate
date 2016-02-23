@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  23 FEB 2016 14:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  23 FEB 2016 14:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -515,7 +515,13 @@ Package pdftex.def Info: contour_compare_sup-eps-converted-to.pdf used on input
  [2 <./contour_compare_sup-eps-converted-to.pdf>] (./residuecounts.tex) [3] (./
 out_8000_500.tex) [4]
 (./frequency.tex
-Underfull \hbox (badness 10000) in paragraph at lines 12--12
+Underfull \hbox (badness 2435) in paragraph at lines 14--14
+[]\OT1/cmr/m/n/10 These num-bers, along with cen-tral an-gle val-ues, are avail
+-able in CSV for-mat on GitHub un-der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
 
  []
 
@@ -539,11 +545,11 @@ Package rerunfilecheck Info: File `supp.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 72.
  ) 
 Here is how much of TeX's memory you used:
- 8043 strings out of 493117
- 119243 string characters out of 6135433
- 462452 words of memory out of 5000000
- 11281 multiletter control sequences out of 15000+600000
- 13704 words of font info for 53 fonts, out of 8000000 for 9000
+ 8045 strings out of 493117
+ 119264 string characters out of 6135433
+ 462579 words of memory out of 5000000
+ 11282 multiletter control sequences out of 15000+600000
+ 13872 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,17n,47p,610b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
@@ -560,11 +566,12 @@ live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texliv
 e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2
 014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
 14/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/201
-4/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on supp.pdf (57 pages, 2601423 bytes).
+4/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2014
+/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on supp.pdf (57 pages, 2614650 bytes).
 PDF statistics:
- 407 PDF objects out of 1000 (max. 8388607)
- 306 compressed objects within 4 object streams
+ 413 PDF objects out of 1000 (max. 8388607)
+ 311 compressed objects within 4 object streams
  87 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
