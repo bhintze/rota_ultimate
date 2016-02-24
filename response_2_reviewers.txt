@@ -14,7 +14,7 @@ Reviewer 1:
 -->  The above two comments actually critique sentences in the abstract (not the intro), where there is little room for more detail.  (That detail is of course provided later in the paper, on each of these points.)  To address what are evidently possible misunderstandings here in the abstract, we have added clarification.  We hope this will make it harder for a reader to miss that the noise is in the data, the clusters are what is cleaner, and the subject is validation not modeling.  We believe it is already clear that the comparisons are with our earlier rotamers.
     The sentences now read as:
 "The combined new protocol retains a million residues of data, while cleaning up false-positive noise in the multi-Chi datapoint distributions. It enables unambiguous characterization of conformational clusters nearly 1000-fold less frequent than the most common ones."
-"… we believe the future of conformational validation should integrate sidechain and backbone criteria, as opposed to the current independent treatment." 
+"… we believe the future of conformational validation should integrate sidechain with backbone criteria." 
 
 
 • On p. 5. You say “Design libraries and validation libraries focus on two distinct areas of the distributions; while design and prediction are concerned with statistics inside the low-energy wells, validation (and experimental model-building, for the most part) is concerned with avoiding the unacceptable outliers beyond the edges of those wells. “ … I don’t think things are so clearly separated, and also most readers will be confused by this.  Can you rephrase this so that it puts what you are saying into an operational or a practical context?
