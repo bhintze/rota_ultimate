@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  25 FEB 2016 13:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  25 FEB 2016 13:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -522,7 +522,7 @@ nverted-to.pdf contour_compare_sup.eps>
 (epstopdf)             \includegraphics on input line 58.
 Package epstopdf Info: Output file is already uptodate.
 
-<contour_compare_sup-eps-converted-to.pdf, id=105, 939.51pt x 1011.78pt>
+<contour_compare_sup-eps-converted-to.pdf, id=104, 939.51pt x 1011.78pt>
 File: contour_compare_sup-eps-converted-to.pdf Graphic file (type pdf)
 
 <use contour_compare_sup-eps-converted-to.pdf>
@@ -572,16 +572,12 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
 Package rerunfilecheck Info: File `supp.out' has not changed.
 (rerunfilecheck)             Checksum: 00567D8E8E5760368FB97D0B35CE1383;455.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
  ) 
 Here is how much of TeX's memory you used:
  8205 strings out of 493117
  121469 string characters out of 6135433
- 466582 words of memory out of 5000000
+ 466567 words of memory out of 5000000
  11426 multiletter control sequences out of 15000+600000
  14179 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -602,10 +598,10 @@ e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2
 14/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/201
 4/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2014
 /texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on supp.pdf (58 pages, 2628681 bytes).
+Output written on supp.pdf (58 pages, 2628639 bytes).
 PDF statistics:
- 450 PDF objects out of 1000 (max. 8388607)
- 347 compressed objects within 4 object streams
+ 449 PDF objects out of 1000 (max. 8388607)
+ 346 compressed objects within 4 object streams
  90 named destinations out of 1000 (max. 500000)
  54 words of extra memory for PDF output out of 10000 (max. 10000000)
 
