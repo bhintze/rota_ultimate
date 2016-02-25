@@ -1,13 +1,12 @@
-The following details concerns brought up by the reviewers and our response.
+     We have complied with and/or answered all the reviewer comments, and have also gone through the ms again carefully and made other edits for a few corrections and many clarifications (changes in red).  The following detailed responses explain our reasoning, and quote the changes.
 
 Reviewer 1:
 • Could you devise a figure or table that more directly or comprehensively compares the older (penultimate) rotamer library to the new (ultimate) you describe here
 
--->  In the supplement we added a table that compares the outlier count in the unfiltered dataset when evaluated using the Top500 vs. the Top8000 contours (see table 2 in supplement) and make a reference to that table in Section 4.2. We have also added a figure comparing the contour of the remaining 2 dimensional residue types not already in figure 2 (see Figure S1 in the supplement). Along with this we added references to Figure S1 in 4.2 and the caption of Figure 2 (See red text).
+-->  In the supplement we added a table that compares the outlier count in the unfiltered dataset when evaluated using the Top500 vs. the Top8000 contours (see table 2 in supplement) and made a reference to that table in Section 4.2. We have also added a figure comparing the contours of the remaining 2-dimensional residue types not already in figure 2 (see Figure S1 in the supplement). Along with this we added references to Figure S1 in 4.2 and the caption of Figure 2 (See red text). Also at the beginning of Results we now compare the current number of named rotamers (212) with the number in our 2000 paper (153).
 
 
 • In intro you say: “The combined new protocol retains a million residues of data, while cleaning up noise in the multi-dimensional χ distributions. It enables clean characterization of conformational clusters nearly 1000-fold less frequent than the most common ones.” … ‘Noise’ and ‘Clean’ are quite imprecise in this context. Noise in what estimate? Compared to what?
-
 
 • In the intro you state:  “we believe the future of conformational validation should integrate sidechain and backbone. “   … Not sure what you are suggesting, as this sentence lacks sufficient detail. What part of how side chains and backbones are modeled need be integrated?
 
@@ -31,7 +30,7 @@ Reviewer 1:
 
 • The following sentence on page 7 made no real sense “This entire set of datasets is therefore nicknamed the ”Top8000” of structural biology’s upper class.“
 
--->  We have now dropped this playful analogy to 19th Century British and American society's "Upper Ten Thousand", and the sentence now reads just:
+-->  We have now dropped this playful analogy to 19th Century British and American society's "Upper Ten Thousand", and the sentence now reads simply:
 
 "We therefore call these datasets the Top8000, as successors to the Top500.”
 
@@ -41,9 +40,15 @@ Reviewer 1:
 -->  It would be extremely difficult to make this section readable and its logic understandable as a single paragraph.  Instead, we have made it an explicit list of separate arguments and have rewritten it for better clarity and continuity, which is indeed quite helpful:
 
 “Calling this set of rotamer-library distributions ”ultimate” is a claim that requires both explanation and justification. 16 years after our ”penultimate” rotamers, we had to confront the issue of whether or not MolProbity’s line of validation-focused rotamer distributions had reached its ultimate stage. We decided that indeed it had, from three separate lines of argument, reflected in the wording of this work’s title.
-(1) We claim it as ultimate only for the multi-dimensional χ distributions used to validate sidechain models, such as done by the MolProbity website and in PHENIX. The rotamers presented here are of course not necessarily ultimate or even appropriate for other purposes.(2) The changes from penultimate to ultimate distributions are fairly minor in quantitative terms, even after 16 years. The importance of the new system lies in its ability to support a 3-level evaluation, to identify very rare rotamers, and to specify rotamer-dependent bond-angle deviations. A million reliably-modeled residues of data now provide fully adequate sampling for the basic task of robustly locating smooth contours that separate favored (98%), allowed, and outlier regions. The fundamental χ distributions would be unlikely to change much at all if they were redetermined in the future, and we plan to keep them freely available on GitHub for testing, for use within other software systems, and for spinoffs such as approximation by differentiable functions.(3) What we do expect will improve in the future is a redefinition of conformational validation, enabled by expansion of data and computing power, and driven by the needs of structure determination at lower resolution. Rather than doing separate Ramachandran and rotamer evaluation, we should move toward analyzing all backbone and sidechain torsional dimensions together [8], including allowance for the influence of secondary structure and local motifs. Thus our ”ultimate” claim asserts the position that MolProbity’s type of rotamer evaluation should no longer be updated but should evolve into something that treats covariation simultaneously.”
 
--->  The more important issue is the word "ultimate". Note that even the title says these are MOLPROBITY'S ultimate rotamer distributions (not everyone's), and for model validation, not for everything.  It is indeed quite likely that someone else will iterate rotamer development -- but we don't intend to, in anything like the same form.  We feel the paper makes our case adequately and prominently (in title, abstract, and discussion), and that "ultimate" can be treated as meaningful and memorable, but not too dead-serious, designation alongside the previous “penultimate” library.
+(1) We claim it as ultimate only for the multi-dimensional χ distributions used to validate sidechain models, such as done by the MolProbity website and in PHENIX. The rotamers presented here are not necessarily ultimate or even appropriate for other purposes.
+
+(2) The changes from penultimate to ultimate distributions are fairly minor in quantitative terms, even after 16 years. The importance of the new system lies in its ability to support a 3-level evaluation, to identify very rare rotamers, and to specify rotamer-dependent bond-angle deviations. A million reliably-modeled residues of data now provide fully adequate sampling for the basic task of robustly locating smooth contours that separate favored (98%), allowed, and outlier regions. The fundamental χ distributions would be unlikely to change much at all if they were redetermined in the future, and we plan to keep them freely available on GitHub for testing, for use within other software systems, and for spinoffs such as approximation by differentiable functions.
+
+(3) What we do expect will improve in the future is a redefinition of conformational validation, enabled by expansion of data and computing power, and driven by the needs of structure determination at lower resolution. Rather than doing separate Ramachandran and rotamer evaluation, we should move toward analyzing all backbone and sidechain torsional dimensions together [8], including allowance for the influence of secondary structure and local motifs. Thus our ”ultimate” claim asserts the position that MolProbity’s type of rotamer evaluation should no longer be updated but should evolve into something better.
+”
+
+-->  The more important issue is the word "ultimate". Note that even the title says these are MOLPROBITY'S ultimate rotamer distributions (not everyone's), and for model validation, not for everything.  It is indeed quite likely that someone else will iterate rotamer development -- but we don't intend to, in anything like the same form.  We feel the paper makes our case adequately and prominently (in title, abstract, and discussion), and that "ultimate" can be treated as a meaningful and memorable, but not too dead-serious, designation alongside the previous “penultimate” library.
 
 
 Reviewer 2:
@@ -59,7 +64,7 @@ Reviewer 2:
 
 -->  The following citation to SideAide was added in the introduction when talking about where rotamer libraries are used (brackets enclosing this citation are in red):
 
-R. P. Joosten, K. Joosten, S. X. Cohen, G. Vriend, and A. Perrakis. Automatic rebuilding and optimization of crystallographic structures in the protein data bank. Bioinformatics, 27(24):3392–3398, oct 2011.
+R. P. Joosten, K. Joosten, G. N Murshudov, A. Perrakis. PDB_REDO: constructive validation, more than just looking for errors. Acta Cryst D 68: 484-496, 2012.
 
     We did not add O to an already long list, since we feel that COOT is more currently relevant.
 
