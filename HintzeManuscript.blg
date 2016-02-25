@@ -5,24 +5,24 @@ The style file: unsrt.bst
 Database file #1: HintzeManuscript.bib
 You've used 46 entries,
             1791 wiz_defined-function locations,
-            793 strings with 14179 characters,
-and the built_in function-call counts, 12842 in all, are:
-= -- 1102
-> -- 754
+            791 strings with 14153 characters,
+and the built_in function-call counts, 12811 in all, are:
+= -- 1100
+> -- 751
 < -- 2
-+ -- 268
-- -- 222
-* -- 1209
-:= -- 2105
++ -- 267
+- -- 221
+* -- 1205
+:= -- 2100
 add.period$ -- 140
 call.type$ -- 46
 change.case$ -- 43
 chr.to.int$ -- 0
 cite$ -- 46
 duplicate$ -- 436
-empty$ -- 1107
-format.name$ -- 222
-if$ -- 2681
+empty$ -- 1105
+format.name$ -- 221
+if$ -- 2675
 int.to.chr$ -- 0
 int.to.str$ -- 46
 missing$ -- 45
@@ -34,7 +34,7 @@ purify$ -- 0
 quote$ -- 0
 skip$ -- 166
 stack$ -- 0
-substring$ -- 1102
+substring$ -- 1096
 swap$ -- 64
 text.length$ -- 2
 text.prefix$ -- 0

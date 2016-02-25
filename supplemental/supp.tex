@@ -11,6 +11,7 @@
 \usepackage{pdflscape}
 \usepackage{supertabular}
 \usepackage{xcolor,colortbl}
+\usepackage{titletoc}
 \graphicspath{{figures/}}
 %\linespread{2}
 %-----------------------------------------------------------------------------%
@@ -30,7 +31,7 @@
 \newcolumntype{b}{>{\columncolor{white}}c}
 \renewcommand{\thefigure}{S\arabic{figure}}
 \renewcommand{\thetable}{S\arabic{table}}
-\renewcommand{\thesection}{S\arabic{section}}
+\renewcommand\thesection{}
 \begin{document}
 
 \title{Supplemental Material for MolProbity's Ultimate Rotamer-Library Distributions for Model Validation}
@@ -41,11 +42,17 @@
 \affil{Department of Biochemistry, Duke University}
 \date{}
 \maketitle
+
+\vspace{-15mm}
+\tableofcontents
 \listoffigures
 \listoftables
 \newpage
 
-\section*{Top500 vs. Top8000 Reference Contours}
+\input{GitHubMaterial}
+\newpage
+
+\section{Top500 vs. Top8000 Reference Contours}
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.75\textwidth]{contour_compare_sup}

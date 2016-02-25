@@ -16,10 +16,10 @@ In the Top8000 database, you will find:
 * Top8000_best_hom##_pdb_chain_list.csv, a list of high data quality PDB chains at varying homology levels
 * Top8000_SFbest_hom##_pdb_chain_list.csv, a list of high data quality PDB chains at varying homology levels that also have structure factor data deposited
 * Top8000_rotamer_pdb_chain_count.csv , a list of exactly which structures were used to generate the rotamer data used here
-* Top8000_rotamer_residues.csv , the rotamer assignment of each residue in the dataset
+* Top8000_rotamer_residues.csv , the rotamer assignment of each residue in the filtered dataset
 
 ## Top8000_rotamer_central_values
-This directory contains, for each of the rotameric canonical amino acids, a table listing rotamer frequency data and the means and standard deviations of each rotamer's bond torsion and bond angle geometries.
+This directory contains, for each of the 18 canonical, rotameric amino acids, a table listing rotamer frequency data and the means and standard deviations of each rotamer's bond-torsion and covalent-bond angles.
 
 ## Top8000_rotamer_kinemages
 This directory contains kinemage files plotting the rotamer distributions in various chi angle spaces (including both the data points and the contours), for visualization of the distributions.  
