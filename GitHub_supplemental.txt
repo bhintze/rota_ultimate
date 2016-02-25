@@ -1,6 +1,8 @@
 Supplementary Text 1:
 
-The rotamer data generated in this work are freely available via GitHub.  To download the rotamer database, first install git, and then (in a terminal) run the command:
+# Downloading the Top8000 database
+
+The rotamer data generated in this work are freely available via GitHub.  To download the rotamer database, install git if necessary (instructions below) and then in a terminal run the command:
 
 	git clone --depth=1 https://github.com/rlabduke/reference_data.git
 
@@ -11,7 +13,7 @@ If you are experienced with SVN, you can instead use the command:
 
 You can also browse the data online at https://github.com/rlabduke/reference_data/tree/master/Top8000.  Most of the data files are too large to interact with in a browser.  GitHub has a “raw” option to view text files directly in your browser available from each individual file's page after navigating to it in your browser, or via URLs of the form https://raw.githubusercontent.com/rlabduke/reference_data/master/Top8000/Top8000-SFbest_hom50_pdb_chain_list.csv, where the URL path after master/ is identical to the file path in the repository proper.
 
-In the Top8000 database, you will find:
+# Contents of the Top8000 database:
 
 * Top8000_best_hom##_pdb_chain_list.csv, a list of high data quality PDB chains at varying homology levels
 * Top8000_SFbest_hom##_pdb_chain_list.csv, a list of high data quality PDB chains at varying homology levels that also have structure factor data deposited
@@ -26,3 +28,9 @@ This directory contains kinemage files plotting the rotamer distributions in var
 
 ## Top8000_rotamer_pct_contour_grids
 This directory contains contour/rotamericity grids for sidechain conformation for each of the rotameric canonical amino acids.  Each file's header describes how to interpret it.  Broadly, each file is a list of points that collectively grid out all of chi space (in however many dimensions/chi that sidechain has), plotting rotamericity at each grid point.  Contours drawn through grid points of given values define regions of chi space above a certain rotamericity.  Grid areas with rotamericity below 0.3% (inclusive) represent outlier regions, regions above 2.0% (inclusive) define favored rotamers, and regions in between are defined as allowed.
+
+# Installing git
+
+Git is a powerful tool for version control, used by the Richardson Lab and many others to distribute and control their source code.  GitHub is a popular website used to manage git-controlled projects.  We are using GitHub and git to distribute these rotamer database in the same way we distribute our other source code.
+
+Installation instructions for git are available at https://git-scm.com/.  GitHub is simply a website (github.com).
