@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  25 FEB 2016 13:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  25 FEB 2016 16:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -616,12 +616,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ] [31] (./figures.tex
 Package epstopdf Info: Source file: <figure_files/LEU_ILE_HIS.eps>
-(epstopdf)                    date: 2015-07-10 09:46:49
-(epstopdf)                    size: 81998866 bytes
+(epstopdf)                    date: 2016-02-25 14:35:23
+(epstopdf)                    size: 82357794 bytes
 (epstopdf)             Output file: <figure_files/LEU_ILE_HIS-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2015-12-13 09:00:57
-(epstopdf)                    size: 12878379 bytes
+(epstopdf)                    date: 2016-02-25 14:42:26
+(epstopdf)                    size: 12875860 bytes
 (epstopdf)             Command: <repstopdf --outfile=figure_files/LEU_ILE_HIS-e
 ps-converted-to.pdf figure_files/LEU_ILE_HIS.eps>
 (epstopdf)             \includegraphics on input line 5.
@@ -742,12 +742,12 @@ Package pdftex.def Info: figure_files/Metmpm-eps-converted-to.pdf used on input
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package epstopdf Info: Source file: <figure_files/AspAsn_contours.eps>
-(epstopdf)                    date: 2015-07-10 11:38:39
-(epstopdf)                    size: 48596986 bytes
+(epstopdf)                    date: 2016-02-25 14:39:19
+(epstopdf)                    size: 49175522 bytes
 (epstopdf)             Output file: <figure_files/AspAsn_contours-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2016-02-16 19:07:18
-(epstopdf)                    size: 7559634 bytes
+(epstopdf)                    date: 2016-02-25 14:42:33
+(epstopdf)                    size: 7557595 bytes
 (epstopdf)             Command: <repstopdf --outfile=figure_files/AspAsn_contou
 rs-eps-converted-to.pdf figure_files/AspAsn_contours.eps>
 (epstopdf)             \includegraphics on input line 59.
@@ -831,10 +831,10 @@ ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
 e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
 2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2
 014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on HintzeManuscript.pdf (36 pages, 22875380 bytes).
+Output written on HintzeManuscript.pdf (36 pages, 22859319 bytes).
 PDF statistics:
- 672 PDF objects out of 1000 (max. 8388607)
- 549 compressed objects within 6 object streams
+ 670 PDF objects out of 1000 (max. 8388607)
+ 548 compressed objects within 6 object streams
  129 named destinations out of 1000 (max. 500000)
  249 words of extra memory for PDF output out of 10000 (max. 10000000)
 
