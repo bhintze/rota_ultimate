@@ -45,6 +45,12 @@ Jane~S Richardson, Daniel~A Keedy, and David~C Richardson.
   Press-WSPC publication, pages 46--61. World Scientific Publishing Company
   Incorporated, 2013.
 
+\bibitem{Jones1991}
+T.~A. Jones, J.~Y. Zou, S.~W. Cowan, and M.~Kjeldgaard.
+\newblock Improved methods for building protein models in electron density maps
+  and the location of errors in these models.
+\newblock {\em Acta Cryst Sect A}, 47(2):110--119, mar 1991.
+
 \bibitem{Arendall2005}
 W.~Bryan Arendall, Wolfram Tempel, Jane~S. Richardson, Weihong Zhou, Shuren
   Wang, Ian~W. Davis, Zhi-Jie Liu, John~P. Rose, W.~Michael Carson, Ming Luo,
@@ -77,11 +83,11 @@ Martyn~D. Winn, Charles~C. Ballard, Kevin~D. Cowtan, Eleanor~J. Dodson, Paul
 \newblock Overview of the {CCP} 4 suite and current developments.
 \newblock {\em Acta Crystallogr D Biol Cryst}, 67(4):235--242, mar 2011.
 
-\bibitem{Joosten2012}
-Robbie~P. Joosten, Krista Joosten, Garib~N. Murshudov, and Anastassis Perrakis.
-\newblock {PDB}{\_}{REDO} : constructive validation, more than just looking for
-  errors.
-\newblock {\em Acta Crystallogr D Biol Cryst}, 68(4):484--496, mar 2012.
+\bibitem{Joosten2011}
+R.~P. Joosten, K.~Joosten, S.~X. Cohen, G.~Vriend, and A.~Perrakis.
+\newblock Automatic rebuilding and optimization of crystallographic structures
+  in the protein data bank.
+\newblock {\em Bioinformatics}, 27(24):3392--3398, oct 2011.
 
 \bibitem{Bower1997}
 Michael~J. Bower, Fred~E. Cohen, and Roland~L. Dunbrack.

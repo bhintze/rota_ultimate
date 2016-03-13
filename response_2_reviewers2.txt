@@ -1,0 +1,8 @@
+We are grateful to reviewer 2's clarifying details regarding the reference to Side Side. We have included the following changes.
+
+
+Reviewer 1:
+• It is rather surprising that although the authors put up a lengthy argument for not referencing RSCC in one of the papers where it is indeed mentioned but not clearly described, they chose to reference for Side Aide the paper that does not describe it in detail (the detailed description is in Joosten et al, Bioinformatics and not in the Acta D paper they cite). I also fail to see how one additional reference to the work of Jones et al and Lego Side Chain would lengthen an already long list; especially as this was a pioneering body of work, albeit currently largely irrelevant given the Coot revolution.
+
+
+--> We changed the reference in the introduction, referencing rotamer library use in crystallographic model building and refinement, to include Joosten et al, Bioinformatics as well as Jones et al. 1991.
